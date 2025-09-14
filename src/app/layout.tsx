@@ -34,6 +34,25 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta name="msvalidate.01" content="CCBDC370B5C44A8783235902B48C5F92" />
+      <head>
+        {/* Microsoft Clarity */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "tav8qqoyp1");
+            `,
+          }}
+        />
+        <meta
+          name="google-site-verification"
+          content="kgrAV53WTnwqMtB90Ba0CSW-Q97XZG0DRVVqVJgtdhU"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

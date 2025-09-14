@@ -8,6 +8,7 @@ import HowToPlaySection from "../components/HowToPlaySection";
 import MediaSection from "../components/MediaSection";
 import NewsSection from "../components/NewsSection";
 import FooterSection from "../components/FooterSection";
+import NavAdsComponent from "@/components/NavAdsComponent";
 
 export default function Home() {
   useEffect(() => {}, []);
@@ -18,6 +19,7 @@ export default function Home() {
       style={{ scrollSnapType: "y mandatory" }}
     >
       <Navbar />
+      <NavAdsComponent />
       <HeroSection />
       <MediaSection />
 
