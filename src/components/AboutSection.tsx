@@ -32,11 +32,11 @@ export default function AboutSection() {
               social commentary.
             </p>
             <p className="mb-4">
-              As the manager of Harvey's daily life, you'll face moral dilemmas
-              and unexpected events. Will you sacrifice Harvey's well-being for
-              profit, or strive for a better work-life balance? The game
-              challenges you to navigate a system where every action has a
-              price.
+              As the manager of Harvey&apos;s daily life, you&apos;ll face moral
+              dilemmas and unexpected events. Will you sacrifice Harvey&apos;s
+              well-being for profit, or strive for a better work-life balance?
+              The game challenges you to navigate a system where every action
+              has a price.
             </p>
             <p className="mb-4">
               Explore a richly detailed cyberpunk city, interact with quirky
@@ -60,8 +60,8 @@ export default function AboutSection() {
             <p>
               Manage resources, make strategic choices, and experience the
               consequences of your actions. The Human Expenditure Program system
-              ensures that every decision impacts Harvey's fate and the world
-              around him.
+              ensures that every decision impacts Harvey&apos;s fate and the
+              world around him.
             </p>
           </div>
         </div>

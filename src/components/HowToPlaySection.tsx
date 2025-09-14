@@ -16,7 +16,7 @@ export default function HowToPlaySection() {
               <span className="font-bold text-yellow-300">BloodMoney 2</span>{" "}
               puts you in control of Harvey Harvington, navigating the
               challenges of the Human Expenditure Program. Your goal is to
-              balance Harvey's health, happiness, and finances while making
+              balance Harvey&apos;s health, happiness, and finances while making
               impactful decisions in a satirical corporate world.
             </p>
             <ol className="list-decimal list-inside space-y-4">
@@ -24,8 +24,8 @@ export default function HowToPlaySection() {
                 <span className="font-semibold text-yellow-200">
                   Start the Program:
                 </span>{" "}
-                Enter the Human Expenditure Program and review Harvey's current
-                stats and situation.
+                Enter the Human Expenditure Program and review Harvey&apos;s
+                current stats and situation.
               </li>
               <li>
                 <span className="font-semibold text-yellow-200">
@@ -39,22 +39,22 @@ export default function HowToPlaySection() {
                 <span className="font-semibold text-yellow-200">
                   Monitor Resources:
                 </span>{" "}
-                Watch Harvey's health, happiness, and money. Poor decisions can
-                lead to burnout, debt, or unexpected consequences.
+                Watch Harvey&apos;s health, happiness, and money. Poor decisions
+                can lead to burnout, debt, or unexpected consequences.
               </li>
               <li>
                 <span className="font-semibold text-yellow-200">
                   Explore Storylines:
                 </span>{" "}
                 Try different strategies to unlock multiple endings and discover
-                hidden events. Your decisions shape Harvey's fate.
+                hidden events. Your decisions shape Harvey&apos;s fate.
               </li>
               <li>
                 <span className="font-semibold text-yellow-200">
                   Experience Satire:
                 </span>{" "}
                 Enjoy the dark humor and social commentary as you manage
-                Harvey's life in a world where every action has a price.
+                Harvey&apos;s life in a world where every action has a price.
               </li>
             </ol>
           </div>

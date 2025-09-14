@@ -91,7 +91,7 @@ export default function HeroSection() {
                 <ol className="list-decimal list-inside space-y-2 text-white text-lg">
                   <li>
                     Start the Program: Enter the Human Expenditure Program and
-                    review Harvey's current stats and situation.
+                    review Harvey&apos;s current stats and situation.
                   </li>
                   <li>
                     Make Choices: Select actions for Harvey—work overtime, rest,
@@ -99,18 +99,18 @@ export default function HeroSection() {
                     affects his physical and mental state.
                   </li>
                   <li>
-                    Monitor Resources: Watch Harvey's health, happiness, and
-                    money. Poor decisions can lead to burnout, debt, or
+                    Monitor Resources: Watch Harvey&apos;s health, happiness,
+                    and money. Poor decisions can lead to burnout, debt, or
                     unexpected consequences.
                   </li>
                   <li>
                     Explore Storylines: Try different strategies to unlock
                     multiple endings and discover hidden events. Your decisions
-                    shape Harvey's fate.
+                    shape Harvey&apos;s fate.
                   </li>
                   <li>
                     Experience Satire: Enjoy the dark humor and social
-                    commentary as you manage Harvey's life in a world where
+                    commentary as you manage Harvey&apos;s life in a world where
                     every action has a price.
                   </li>
                 </ol>

@@ -11,7 +11,7 @@ export default function NewsSection() {
           {/* News Card 1 */}
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-bold text-red-400 mb-2">
-              Major Update: New Area "Zero Zone" Unlocked!
+              Major Update: New Area &apos;Zero Zone&apos; Unlocked!
             </h3>
             <p className="text-gray-400 text-sm mb-4">
               Published on Sep 14, 2025
