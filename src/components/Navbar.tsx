@@ -13,10 +13,10 @@ export default function Navbar() {
         </Link>
         <div className="hidden md:flex space-x-8 text-lg">
           <Link
-            href="#about"
+            href="#features"
             className="hover:text-red-500 transition duration-300"
           >
-            About
+            Features
           </Link>
           <Link
             href="#how-to-play"
