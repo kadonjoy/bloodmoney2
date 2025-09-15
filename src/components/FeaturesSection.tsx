@@ -63,7 +63,7 @@ export default function FeaturesSection() {
               </div>
               <div className="prose prose-lg max-w-4xl mx-auto space-y-6 text-gray-300">
                 <p>
-                  Take control of Harvey's daily life, facing dilemmas that
+                  Take control of Harvey&apos;s daily life, facing dilemmas that
                   challenge your morals and priorities. Every action has a
                   price, and your decisions shape the outcome of his journey.
                 </p>
@@ -138,8 +138,9 @@ export default function FeaturesSection() {
                     Human Expenditure Program
                   </h3>
                   <p className="text-gray-300">
-                    Manage every aspect of Harvey's life, from daily routines to
-                    major decisions, in a world where every choice matters.
+                    Manage every aspect of Harvey&apos;s life, from daily
+                    routines to major decisions, in a world where every choice
+                    matters.
                   </p>
                 </div>
                 <div className="bg-gray-800 p-6 rounded-2xl shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-2">
@@ -162,8 +163,8 @@ export default function FeaturesSection() {
                     Resource Management
                   </h3>
                   <p className="text-gray-300">
-                    Balance health, wealth, and happiness. Optimize Harvey's
-                    life while facing unexpected events.
+                    Balance health, wealth, and happiness. Optimize
+                    Harvey&apos;s life while facing unexpected events.
                   </p>
                 </div>
                 <div className="bg-gray-800 p-6 rounded-2xl shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-2">
@@ -198,7 +199,7 @@ export default function FeaturesSection() {
                   </h3>
                   <p className="text-gray-200">
                     Start by exploring the Human Expenditure Program interface.
-                    Track Harvey's stats and available actions.
+                    Track Harvey&apos;s stats and available actions.
                   </p>
                 </div>
                 <div className="bg-gradient-to-br from-indigo-900 to-indigo-700 p-6 rounded-2xl shadow-md transition duration-300 hover:shadow-2xl hover:-translate-y-2">
@@ -210,7 +211,7 @@ export default function FeaturesSection() {
                   </h3>
                   <p className="text-gray-200">
                     Analyze each decision. Consider both short-term and
-                    long-term effects on Harvey's life.
+                    long-term effects on Harvey&apos;s life.
                   </p>
                 </div>
                 <div className="bg-gradient-to-br from-indigo-900 to-indigo-700 p-6 rounded-2xl shadow-md transition duration-300 hover:shadow-2xl hover:-translate-y-2">
@@ -321,7 +322,7 @@ export default function FeaturesSection() {
                   </h3>
                   <p className="text-gray-200">
                     BloodMoney 2 is a satirical life simulation game where you
-                    manage Harvey Harvington's journey through the Human
+                    manage Harvey Harvington&apos;s journey through the Human
                     Expenditure Program.
                   </p>
                 </div>
@@ -376,7 +377,7 @@ export default function FeaturesSection() {
                   </h3>
                   <p className="text-gray-200">
                     There are 7 distinct endings, each reflecting your approach
-                    to managing Harvey's life.
+                    to managing Harvey&apos;s life.
                   </p>
                 </div>
                 <div className="bg-gradient-to-r from-gray-800 to-gray-900 p-6 rounded-2xl shadow-md transition duration-300 hover:shadow-xl">
