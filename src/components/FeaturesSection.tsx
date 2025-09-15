@@ -37,7 +37,7 @@ export default function FeaturesSection() {
 
         {/* Tab Content */}
         <div className="tab-content">
-          {/* About */}
+          {/* About tab*/}
           {activeTab === "about" && (
             <div className="py-8">
               <h2 className="text-3xl font-bold text-center mb-12 text-indigo-400">
