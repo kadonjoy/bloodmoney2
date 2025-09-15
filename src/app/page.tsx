@@ -20,11 +20,13 @@ export default function Home() {
     >
       <Navbar />
       <NavAdsComponent />
-      <HeroSection />
+      {/* 将 HeroSection 单独包裹，避免全屏时遮挡其它内容 */}
+      <div id="hero-section-wrapper" className="relative z-10">
+        <HeroSection />
+      </div>
       <MediaSection />
-
-      <AboutSection />
-      {/* <FeaturesSection /> */}
+      {/* <AboutSection /> */}
+      <FeaturesSection />
       <HowToPlaySection />
       {/* <NewsSection /> */}
       <FooterSection />

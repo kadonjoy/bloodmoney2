@@ -36,6 +36,12 @@ export default function RootLayout({
     <html lang="en">
       <meta name="msvalidate.01" content="CCBDC370B5C44A8783235902B48C5F92" />
       <head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+        {/* Canonical URL */}
+        <link rel="canonical" href="https://bloodmoney2.com/" />
         {/* Microsoft Clarity */}
         <script
           dangerouslySetInnerHTML={{
