@@ -3,7 +3,7 @@ import React from "react";
 export default function FooterSection() {
   // share buttons
   const handleShare = (platform: "twitter" | "facebook") => {
-    const url = encodeURIComponent("https://bloodmoney2.com/");
+    const url = encodeURIComponent("https://bloodmoney2.org/");
     const text = encodeURIComponent(
       "Play BloodMoney 2 - Human Expenditure Program online!"
     );
@@ -33,7 +33,7 @@ export default function FooterSection() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="https://bloodmoney2.com/"
+                  href="https://bloodmoney2.org/"
                   target="_blank"
                   title="BloodMoney 2 - Human Expenditure Program"
                   className="text-gray-300 hover:text-yellow-400 transition duration-300 flex items-center"
@@ -53,7 +53,7 @@ export default function FooterSection() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="https://bloodmoney2.com/"
+                  href="https://bloodmoney2.org/"
                   target="_blank"
                   title="BloodMoney 2 Games"
                   className="text-gray-300 hover:text-yellow-400 transition duration-300 flex items-center"
@@ -76,7 +76,7 @@ export default function FooterSection() {
             </ul>
           </div>
           {/* Legal */}
-          <div>
+          {/* <div>
             <h3 className="text-lg font-semibold mb-6 flex items-center">
               <i className="fas fa-shield-alt mr-2 text-indigo-400"></i>
               Legal
@@ -84,7 +84,7 @@ export default function FooterSection() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="https://bloodmoney2.com/privacy-policy"
+                  href="https://bloodmoney2.org/privacy-policy"
                   className="text-gray-300 hover:text-yellow-400 transition duration-300 flex items-center"
                   target="_blank"
                 >
@@ -94,7 +94,7 @@ export default function FooterSection() {
               </li>
               <li>
                 <a
-                  href="https://bloodmoney2.com/terms-of-service"
+                  href="https://bloodmoney2.org/terms-of-service"
                   className="text-gray-300 hover:text-yellow-400 transition duration-300 flex items-center"
                   target="_blank"
                 >
@@ -103,7 +103,7 @@ export default function FooterSection() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           {/* Share */}
           <div>
             <h3 className="text-lg font-semibold mb-6 flex items-center">
