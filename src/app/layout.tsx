@@ -17,13 +17,30 @@ export const metadata: Metadata = {
   description:
     "Experience BloodMoney 2, the Human Expenditure Program simulation game. Control Harvey Harvington's life with dark comedy and strategic decisions. Play free online now!",
   keywords: [
-    "bloodmoney 2",
+    "bloodmoney 2 org",
     "human expenditure program",
     "harvey harvington",
     "life simulation game",
     "dark comedy game",
     "management simulator",
     "bloodmoney game",
+    "free online game",
+    "browser game",
+    "simulation game",
+    "strategy game",
+    "indie game",
+    "dark humor game",
+    "life management",
+    "decision making game",
+    "narrative game",
+    "story driven game",
+    "character simulation",
+    "workplace simulator",
+    "social commentary game",
+    "online simulator",
+    "free strategy game",
+    "web game",
+    "space edition",
   ],
 };
 
@@ -41,7 +58,7 @@ export default function RootLayout({
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         />
         {/* Canonical URL */}
-        <link rel="canonical" href="https://bloodmoney2.com/" />
+        <link rel="canonical" href="https://bloodmoney2.org/" />
         {/* Microsoft Clarity */}
         <script
           dangerouslySetInnerHTML={{
