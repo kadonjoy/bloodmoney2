@@ -110,7 +110,7 @@ export default function HeroSection() {
           }`}
         >
           {/* Game iframe wrapper */}
-          <div className="relative w-full flex justify-center">
+          <div className="w-full flex justify-center">
             <iframe
               ref={iframeRef}
               src="https://s.clicker-game.com/games/human-expenditure-program-bloodmoney-2/human-expenditure-program-bloodmoney-2.html"
