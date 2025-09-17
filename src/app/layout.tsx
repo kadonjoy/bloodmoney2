@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "BloodMoney 2 - Play Human Expenditure Program Online Free",
   description:
-    "Experience BloodMoney 2, the Human Expenditure Program simulation game. Control Harvey Harvington's life with dark comedy and strategic decisions. Play free online now!",
+    "Experience BloodMoney 2, the Human Expenditure Program simulation game. Control Harvey Harvington's life with dark comedy and strategic decisions.",
   keywords: [
     "bloodmoney 2 org",
     "human expenditure program",
@@ -32,16 +32,32 @@ export const metadata: Metadata = {
     "dark humor game",
     "life management",
     "decision making game",
-    "narrative game",
-    "story driven game",
-    "character simulation",
-    "workplace simulator",
-    "social commentary game",
-    "online simulator",
-    "free strategy game",
-    "web game",
-    "space edition",
   ],
+  openGraph: {
+    title: "BloodMoney 2 - Play Human Expenditure Program Online Free",
+    description:
+      "Experience BloodMoney 2, the Human Expenditure Program simulation game. Control Harvey Harvington's life with dark comedy and strategic decisions.",
+    url: "https://bloodmoney2.org/",
+    siteName: "BloodMoney 2",
+    images: [
+      {
+        url: "https://s.clicker-game.com/games/human-expenditure-program-bloodmoney-2/human-expenditure-program-bloodmoney-2.jpg",
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: "en-US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "BloodMoney 2 - Play Human Expenditure Program Online Free",
+    description:
+      "Experience BloodMoney 2, the Human Expenditure Program simulation game. Control Harvey Harvington's life with dark comedy and strategic decisions. Play free online now!",
+    images: [
+      "https://s.clicker-game.com/games/human-expenditure-program-bloodmoney-2/human-expenditure-program-bloodmoney-2.jpg",
+    ],
+  },
 };
 
 export default function RootLayout({
