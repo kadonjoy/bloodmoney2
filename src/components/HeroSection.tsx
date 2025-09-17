@@ -65,18 +65,18 @@ export default function HeroSection() {
         }`}
       >
         {/* Game iframe wrapper */}
-        <div className="w-full flex justify-center">
+        <div className="w-full max-w-5xl mt-20 flex flex-col justify-center">
           <iframe
             ref={iframeRef}
             src="https://s.clicker-game.com/games/human-expenditure-program-bloodmoney-2/human-expenditure-program-bloodmoney-2.html"
             title="BloodMoney 2 Game"
-            className={`w-full max-w-5xl h-[600px] rounded-xl shadow-2xl border-0 ${
+            className={`justify-center w-full h-[600px] shadow-2xl border-0 ${
               isFullscreen ? "w-screen h-screen max-w-none rounded-none" : ""
             }`}
             allowFullScreen
           />
           {/* Game Control Bar */}
-          <div className="absolute bottom-0 left-0 right-0 z-20 bg-gray-900/95 backdrop-blur-sm border-t border-gray-700">
+          <div className="justify-center items-center mt-0 p-0 bg-gray-800">
             <div className="flex items-center justify-between px-2 md:px-4 py-2 md:py-3">
               {/* Left Side - Game Info */}
               <div className="flex items-center space-x-2 md:space-x-3 flex-shrink-0">
