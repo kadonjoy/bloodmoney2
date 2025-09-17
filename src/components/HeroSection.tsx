@@ -102,6 +102,9 @@ export default function HeroSection() {
             </div>
           </div>
         )}
+        <h1 className="hidden md:block text-2xl font-bold py-2 text-white px-4">
+          BloodMoney 2 - Human Expenditure Program
+        </h1>
       </div>
       {showGame && (
         <div
@@ -166,9 +169,7 @@ export default function HeroSection() {
               </div>
             </div>
           </div>
-          <h1 className="hidden md:block text-2xl font-bold py-2 text-white px-4">
-            BloodMoney 2 - Human Expenditure Program
-          </h1>
+
           {/* Buttons below game window */}
           <div className="flex gap-2 mt-4 justify-center"></div>
           {/* How to Play modal */}
