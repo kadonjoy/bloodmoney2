@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect } from "react";
-import Navbar from "app/components/Navbar";
-import HeroSection from "app/components/HeroSection";
-import GamesGallerySection from "app/components/GamesGallerySection";
+import GameNavbar from "app/games/sections/GamesNavbar";
+import SearchSection from "app/components/SearchSection";
+import AboutSection from "app/components/GamesGallerySection";
 import FeaturesSection from "app/components/FeaturesSection";
 import HowToPlaySection from "app/components/HowToPlaySection";
 import MediaSection from "app/components/MediaSection";
@@ -18,12 +18,9 @@ export default function Home() {
       className="bg-gray-900 text-white leading-relaxed tracking-wider overflow-y-scroll"
       style={{ scrollSnapType: "y mandatory" }}
     >
-      <Navbar />
-      <NavAdsComponent />
-      <div id="hero-section-wrapper" className="relative z-10">
-        <HeroSection />
-      </div>
-      <GamesGallerySection />
+      <GameNavbar />
+      <SearchSection />
+      {/* <NavAdsComponent /> */}
       <MediaSection />
       {/* <AboutSection /> */}
       <FeaturesSection />

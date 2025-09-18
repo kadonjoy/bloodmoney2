@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "@/app/ui/globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,6 +33,9 @@ export const metadata: Metadata = {
     "life management",
     "decision making game",
   ],
+  alternates: {
+    canonical: "https://bloodmoney2.org/",
+  },
   openGraph: {
     title: "BloodMoney 2 - Play Human Expenditure Program Online Free",
     description:
@@ -74,7 +77,7 @@ export default function RootLayout({
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         />
         {/* Canonical URL */}
-        <link rel="canonical" href="https://bloodmoney2.org/" />
+        {/* <link rel="canonical" href="https://bloodmoney2.org/" /> */}
         {/* Microsoft Clarity */}
         <script
           dangerouslySetInnerHTML={{

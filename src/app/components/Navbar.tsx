@@ -12,18 +12,24 @@ export default function Navbar() {
           BloodMoney2
         </Link>
         <div className="hidden md:flex space-x-8 text-lg">
+          {/* <Link
+            href="/games"
+            className="hover:text-red-500 transition duration-300"
+          >
+            Games
+          </Link> */}
           <Link
             href="#features"
             className="hover:text-red-500 transition duration-300"
           >
             Features
           </Link>
-          <Link
+          {/* <Link
             href="#how-to-play"
             className="hover:text-red-500 transition duration-300"
           >
             How to Play
-          </Link>
+          </Link> */}
           {/* <Link
             href="#features"
             className="hover:text-red-500 transition duration-300"
@@ -36,12 +42,9 @@ export default function Navbar() {
           >
             Media
           </Link>
-          {/* <Link
-            href="#news"
-            className="hover:text-red-500 transition duration-300"
-          >
-            News
-          </Link> */}
+          <Link href="/" className="hover:text-red-500 transition duration-300">
+            Home
+          </Link>
         </div>
       </div>
     </nav>
