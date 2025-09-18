@@ -60,7 +60,7 @@ export default function HeroSection() {
         </h1>
       </div> */}
       <div
-        className={`relative z-10 w-full flex flex-col items-center mt-8 ${
+        className={`relative z-10 w-full flex flex-col items-center mt-4 ${
           isFullscreen ? "fixed inset-0 bg-black z-[9999]" : ""
         }`}
       >
