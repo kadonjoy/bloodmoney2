@@ -54,30 +54,26 @@ export default function LoveMoneyFeaturesSection() {
                 <div className="flex-1 space-y-6">
                   <p className="text-lg leading-relaxed text-gray-200">
                     Welcome to LoveMoney, where desperate times call for
-                    desperate measures. This innovative clicker RPG combines
-                    fast-paced incremental gameplay with provocative moral
-                    choices, creating an unforgettable gaming experience that
-                    challenges both your clicking skills and ethical boundaries.
+                    desperate measures. This innovative clicker RPG merges
+                    fast-paced incremental gameplay with morally challenging
+                    decisions, delivering a captivating experience that tests
+                    both your reflexes and your conscience.
                   </p>
                 </div>
               </div>
               <div className="prose prose-lg max-w-4xl mx-auto space-y-6 text-gray-300">
                 <p>
-                  LoveMoney revolutionizes the clicker genre by weaving a
-                  compelling narrative into its addictive gameplay mechanics.
-                  Starting with just $1 per click, you&apos;ll race against time
-                  to earn $25,000 for a critical medical procedure. But in
-                  LoveMoney, the journey to financial salvation is paved with
-                  moral compromises and unexpected romantic encounters that will
-                  test your principles.
+                  LoveMoney redefines the clicker game experience by blending a
+                  gripping storyline with its engaging tap-based mechanics.
+                  Beginning at a rate of $1 per click, you must urgently
+                  accumulate $25,000 to fund an essential medical treatment.
+                  Along this race against time, LoveMoney challenges your ethics
+                  through moral dilemmas and surprising romantic connections,
+                  forcing you to question what you’re willing to sacrifice for
+                  love and money.
                 </p>
                 <div className="my-8 flex justify-center">
                   <div className="max-w-2xl w-full">
-                    <img
-                      src="https://s.clicker-game.com/games/lovemoney/lovemoney.jpg"
-                      alt="LoveMoney - Story-Driven Clicker RPG"
-                      className="w-full rounded-xl shadow-lg"
-                    />
                     <p className="text-center mt-3 text-sm text-gray-400 italic">
                       Begin your journey in LoveMoney&apos;s unique clicking
                       adventure
@@ -85,13 +81,14 @@ export default function LoveMoneyFeaturesSection() {
                   </div>
                 </div>
                 <p>
-                  What sets LoveMoney apart from traditional clicker games is
-                  its deep integration of story elements. Every upgrade you
-                  purchase, every click you make, brings you closer to your goal
-                  while simultaneously presenting new ethical dilemmas. The game
-                  features Harvey, a complex character whose interactions with
-                  you shape the narrative. Will you maintain your integrity, or
-                  will desperation push you beyond moral boundaries?
+                  What truly sets LoveMoney apart from traditional clicker games
+                  is its deep narrative integration. Each click you make and
+                  every upgrade you purchase not only brings you closer to your
+                  financial goal but also unveils new ethical challenges.
+                  Central to the story is Harvey—a complex character whose
+                  relationship with you dynamically influences the unfolding
+                  plot. Will you hold onto your principles, or will the pressure
+                  of desperation lead you to cross moral lines?
                 </p>
                 <div className="my-8 flex justify-center">
                   <div className="max-w-2xl w-full">
@@ -106,14 +103,14 @@ export default function LoveMoneyFeaturesSection() {
                   </div>
                 </div>
                 <p>
-                  The genius of LoveMoney lies in its ability to make players
-                  question their choices. As you progress through the
-                  game&apos;s pixel art world, purchasing increasingly powerful
-                  upgrades to boost your earnings, you&apos;ll encounter
-                  situations that force you to decide between quick money and
-                  maintaining your humanity. These decisions don&apos;t just
-                  affect your score – they fundamentally alter the story&apos;s
-                  progression and lead to multiple unique endings.
+                  The brilliance of LoveMoney lies in how it constantly
+                  challenges players to reflect on their decisions. As you
+                  advance through its richly designed pixel-art world and
+                  acquire more powerful upgrades to accelerate your earnings,
+                  you will face moments that pit financial gain against your own
+                  humanity. These choices do more than influence your final
+                  score—they reshape the entire narrative and unlock multiple
+                  distinct endings.
                 </p>
                 <div className="my-8 flex justify-center">
                   <div className="max-w-2xl w-full">
@@ -128,13 +125,13 @@ export default function LoveMoneyFeaturesSection() {
                   </div>
                 </div>
                 <p>
-                  Experience LoveMoney online completely free and discover why
-                  this innovative title has captivated players worldwide. With
-                  its perfect blend of incremental gameplay, narrative depth,
-                  and moral complexity, LoveMoney offers a gaming experience
-                  that stays with you long after the final click. Whether
-                  you&apos;re a fan of clicker games or story-driven adventures,
-                  LoveMoney delivers an unforgettable journey.
+                  Experience LoveMoney online for free and discover why this
+                  groundbreaking title has captivated players globally.
+                  Seamlessly blending incremental gameplay, rich storytelling,
+                  and profound moral choices, LoveMoney offers an experience
+                  that lingers long after you&apos;ve finished playing. Whether
+                  you&apos;re a fan of clicker games or narrative-driven
+                  adventures, it promises a journey you won&t soon forget.
                 </p>
               </div>
             </div>
@@ -275,31 +272,34 @@ export default function LoveMoneyFeaturesSection() {
               </h2>
               <div className="max-w-3xl mx-auto space-y-6 text-gray-300">
                 <p>
-                  LoveMoney was born from developer Buwu&apos;s vision to create
-                  a game that transcends traditional genre boundaries. By
-                  combining the addictive nature of clicker games with
-                  meaningful narrative choices, the team sought to prove that
-                  even simple mechanics could deliver profound emotional
-                  experiences. The result is a game that challenges players not
-                  just mechanically, but ethically.
+                  LoveMoney emerged from developer Buwu&apos;s ambition to
+                  create a game that goes beyond traditional genre limits. By
+                  merging the addictive mechanics of clicker games with
+                  impactful narrative decisions, the team aimed to demonstrate
+                  that even straightforward gameplay can evoke deep emotional
+                  engagement. The outcome is a title that challenges players not
+                  only in skill—but in conscience.
                 </p>
                 <p>
-                  Development of LoveMoney focused on balancing the urgency of
-                  the clicking mechanic with the weight of moral decisions. The
-                  team carefully crafted each story branch to ensure that
-                  players would feel the impact of their choices, making
-                  LoveMoney more than just a race to earn money. The integration
-                  of Harvey as a central character adds depth to what could have
-                  been a simple incremental game.
+                  During development, LoveMoney prioritized balancing the
+                  urgency of its clicking mechanics with the gravity of its
+                  moral decisions. The team meticulously designed each story
+                  branch to ensure every choice carries tangible emotional
+                  weight, elevating the experience beyond a mere race for cash.
+                  By weaving in Harvey as a central character, the game adds
+                  narrative depth that transforms what could have been a
+                  straightforward incremental game into a rich, choice-driven
+                  journey.
                 </p>
                 <p>
-                  Since its release, LoveMoney has garnered attention for its
-                  bold approach to game design. Players praise how the game
-                  manages to create genuine emotional investment through its
-                  combination of simple clicking mechanics and complex moral
-                  scenarios. LoveMoney proves that innovation in gaming
-                  doesn&apos;t always come from technical complexity, but from
-                  creative vision and meaningful player agency.
+                  Since its launch, LoveMoney has drawn widespread acclaim for
+                  its bold and inventive design approach. Players consistently
+                  highlight its ability to forge deep emotional engagement
+                  through a blend of intuitive clicking mechanics and morally
+                  nuanced scenarios. LoveMoney stands as proof that true
+                  innovation in games stems not from technical complexity
+                  alone—but from imaginative vision and meaningful player
+                  choice.
                 </p>
               </div>
             </div>
