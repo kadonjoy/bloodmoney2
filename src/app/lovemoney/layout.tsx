@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: "LoveMoney - Play the Moral Choice Clicker RPG Online Free",
     description:
       "Dive into LoveMoney, a one-of-a-kind clicker RPG where chasing $25,000 forces you to confront tough ethical dilemmas. Tap to earn, make life-changing choices, and see where your path leads. Start playing LoveMoney online for free today!",
-    url: "https://bloodmoney2.org/lovemoney/",
+    url: "https://bloodmoney2.org/lovemoney",
     siteName: "lovemoney",
     images: [
       {
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     images: ["https://s.clicker-game.com/games/lovemoney/lovemoney-2.jpg"],
   },
   alternates: {
-    canonical: "https://bloodmoney2.org/lovemoney/",
+    canonical: "https://bloodmoney2.org/lovemoney",
   },
 };
 
