@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="container mx-auto flex justify-between items-center">
         <Link
           href="/"
-          className="text-3xl font-bold text-red-600 transition duration-300 transform hover:scale-110"
+          className="text-3xl font-bold text-blue-400 transition duration-300 transform hover:scale-110"
         >
           BloodMoney2
         </Link>

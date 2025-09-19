@@ -6,7 +6,7 @@ import GamesGallerySection from "app/components/GamesGallerySection";
 import FeaturesSection from "app/components/FeaturesSection";
 import HowToPlaySection from "app/components/HowToPlaySection";
 import MediaSection from "app/components/MediaSection";
-import NewsSection from "app/components/NewsSection";
+import SearchSection from "app/components/SearchSection";
 import FooterSection from "app/components/FooterSection";
 import NavAdsComponent from "app/components/NavAdsComponent";
 
@@ -23,6 +23,7 @@ export default function Home() {
       <div id="hero-section-wrapper" className="relative z-10">
         <HeroSection />
       </div>
+      <SearchSection />
       <GamesGallerySection />
       <MediaSection />
       {/* <AboutSection /> */}

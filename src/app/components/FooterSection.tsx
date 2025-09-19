@@ -1,4 +1,5 @@
 import React from "react";
+import { usePathname } from "next/navigation";
 
 export default function FooterSection() {
   // share buttons
@@ -19,6 +20,16 @@ export default function FooterSection() {
       );
     }
   };
+
+  // const pathName = usePathname();
+  // console.log("Current pathname:", pathName);
+  // let title = "";
+
+  // if (pathName === "/") {
+  //   title = "BloodMoney 2";
+  // } else if (pathName === "/lovemoney") {
+  //   title = "LoveMoney";
+  // }
 
   return (
     <footer className="bg-gray-800 text-white py-12">

@@ -7,7 +7,8 @@ import LoveMoneyFeaturesSection from "app/components/LoveMoneyFeaturesSection";
 import LoveMoneyMediaSection from "app/components/LoveMoneyMediaSection";
 import FooterSection from "app/components/FooterSection";
 import NavAdsComponent from "app/components/NavAdsComponent";
-import { Metadata } from "next";
+import SearchSection from "app/components/SearchSection";
+import GamesGallerySection from "app/components/GamesGallerySection";
 
 export default function LoveMoneyPage() {
   useEffect(() => {}, []);
@@ -22,6 +23,8 @@ export default function LoveMoneyPage() {
       <div id="hero-section-wrapper" className="relative z-10">
         <LoveMoneyHeroSection />
       </div>
+      <SearchSection />
+      <GamesGallerySection />
       <LoveMoneyMediaSection />
       <LoveMoneyFeaturesSection />
       <FooterSection />

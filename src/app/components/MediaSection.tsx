@@ -7,7 +7,7 @@ export default function MediaSection() {
       className="section min-h-screen py-16 sm:py-24 bg-gray-900"
     >
       <div className="container mx-auto px-4 sm:px-8">
-        <h2 className="text-4xl sm:text-5xl font-extrabold text-center mb-12 sm:mb-16 uppercase text-red-600">
+        <h2 className="text-4xl sm:text-5xl font-extrabold text-center mb-12 sm:mb-16 uppercase text-blue-400">
           Media
         </h2>
         {/* Video Cards */}
