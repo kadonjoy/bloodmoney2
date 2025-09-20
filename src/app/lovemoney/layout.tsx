@@ -25,6 +25,11 @@ export const metadata: Metadata = {
     "narrative clicker",
     "lovemoney game",
   ],
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    // maximumScale: 1,
+  },
   openGraph: {
     title: "LoveMoney - Play the Moral Choice Clicker RPG Online Free",
     description:

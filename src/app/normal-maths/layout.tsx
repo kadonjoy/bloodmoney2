@@ -29,6 +29,11 @@ export const metadata: Metadata = {
     "educational game",
     "strategy puzzle",
   ],
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    // maximumScale: 1,
+  },
   openGraph: {
     title: "Normal Maths - Free Online Math Puzzle Games",
     description:
