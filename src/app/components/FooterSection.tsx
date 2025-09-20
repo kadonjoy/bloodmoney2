@@ -1,5 +1,6 @@
 import React from "react";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 export default function FooterSection() {
   // share buttons
@@ -87,34 +88,34 @@ export default function FooterSection() {
             </ul>
           </div>
           {/* Legal */}
-          {/* <div>
+          <div>
             <h3 className="text-lg font-semibold mb-6 flex items-center">
               <i className="fas fa-shield-alt mr-2 text-indigo-400"></i>
               Legal
             </h3>
             <ul className="space-y-3">
               <li>
-                <a
-                  href="https://bloodmoney2.org/privacy-policy"
+                <Link
+                  href="/privacypolicy"
                   className="text-gray-300 hover:text-yellow-400 transition duration-300 flex items-center"
                   target="_blank"
                 >
                   <i className="fas fa-shield-alt text-xs mr-2"></i>
                   Privacy Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://bloodmoney2.org/terms-of-service"
+                <Link
+                  href="/terms-of-service"
                   className="text-gray-300 hover:text-yellow-400 transition duration-300 flex items-center"
                   target="_blank"
                 >
                   <i className="fas fa-file-contract text-xs mr-2"></i>
                   Terms
-                </a>
+                </Link>
               </li>
             </ul>
-          </div> */}
+          </div>
           {/* Share */}
           <div>
             <h3 className="text-lg font-semibold mb-6 flex items-center">

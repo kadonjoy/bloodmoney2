@@ -19,3 +19,11 @@ export interface Game {
   image: string;
   url: string;
 }
+
+export interface GameHeroSectionProps {
+  gameTitle: string;
+  gameSubtitle: string;
+  gameIframeSrc: string;
+  gameImageSrc: string;
+  howToPlayList: string[];
+}

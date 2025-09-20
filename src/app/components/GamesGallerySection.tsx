@@ -72,7 +72,7 @@ export default function GamesGallerySection() {
                 </div>
               )}
 
-              <div className="absolute top-0 left-0 right-0 bg-black/70 text-white p-2 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 font-medium rounded-t-2xl">
+              <div className="absolute top-0 left-0 right-0 bg-black/70 text-white p-2 text-center transition-opacity duration-200 font-medium rounded-t-2xl">
                 <div>{game.title}</div>
               </div>
 

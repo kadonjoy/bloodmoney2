@@ -2,9 +2,8 @@
 import React, { useEffect } from "react";
 import GameNavbar from "app/games/sections/GamesNavbar";
 import SearchSection from "app/components/SearchSection";
-import FeaturesSection from "app/components/FeaturesSection";
-import MediaCommonSection from "app/components/MediaCommonSection";
 import FooterSection from "app/components/FooterSection";
+import GamesGallerySection from "app/components/GamesGallerySection";
 
 export default function Home() {
   useEffect(() => {}, []);
@@ -15,12 +14,8 @@ export default function Home() {
       style={{ scrollSnapType: "y mandatory" }}
     >
       <GameNavbar />
+      <GamesGallerySection />
       <SearchSection />
-      {/* <NavAdsComponent /> */}
-      {/* <AboutSection /> */}
-      <FeaturesSection />
-      {/* <HowToPlaySection /> */}
-      {/* <NewsSection /> */}
       <FooterSection />
     </div>
   );

@@ -7,17 +7,17 @@ export default function Navbar() {
       <div className="container mx-auto flex justify-between items-center">
         <Link
           href="/"
-          className="text-3xl font-bold text-red-600 transition duration-300 transform hover:scale-110"
+          className="text-3xl font-bold text-blue-400 transition duration-300 transform hover:scale-110"
         >
           BloodMoney2
         </Link>
         <div className="hidden md:flex space-x-8 text-lg">
-          {/* <Link
-            href="/games"
-            className="hover:text-red-500 transition duration-300"
+          <Link
+            href="/"
+            className="hover:text-blue-400 transition duration-300"
           >
-            Games
-          </Link> */}
+            Home
+          </Link>
         </div>
       </div>
     </nav>

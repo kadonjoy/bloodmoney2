@@ -2,11 +2,19 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
+import { GameHeroSectionProps } from "app/utils/typedefine";
 
-export default function NormalMathsHeroSection() {
+export default function GameHeroSection({
+  gameTitle,
+  gameSubtitle,
+  gameIframeSrc,
+  gameImageSrc,
+  howToPlayList,
+}: GameHeroSectionProps) {
   const [showGame, setShowGame] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const iframeRef = useRef<HTMLIFrameElement>(null);
+  const [showHowToPlay, setShowHowToPlay] = useState(false);
 
   // enter & exit fullscreen state listener
   useEffect(() => {
@@ -35,7 +43,7 @@ export default function NormalMathsHeroSection() {
       // Exit fullscreen
       try {
         await document.exitFullscreen();
-        // setIsFullscreen(false); // 由 fullscreenchange 事件处理
+        // setIsFullscreen(false); // Handled by fullscreenchange event
       } catch (err) {
         console.error("Error attempting to exit fullscreen:", err);
       }
@@ -47,9 +55,6 @@ export default function NormalMathsHeroSection() {
     window.prompt("Copy this link:", window.location.href);
   };
 
-  // How to Play modal logic
-  const [showHowToPlay, setShowHowToPlay] = useState(false);
-
   return (
     <section
       id="hero"
@@ -57,7 +62,7 @@ export default function NormalMathsHeroSection() {
     >
       <div className="absolute inset-0 bg-black opacity-60"></div>
       <div
-        className={`relative z-10 w-full flex flex-col items-center mt-8 ${
+        className={`relative z-10 w-full flex flex-col items-center mt-4 ${
           isFullscreen ? "fixed inset-0 bg-black z-[9999]" : ""
         }`}
       >
@@ -65,8 +70,8 @@ export default function NormalMathsHeroSection() {
         <div className="w-full max-w-5xl mt-20 flex flex-col justify-center">
           <iframe
             ref={iframeRef}
-            src="https://s.clicker-game.com/games/normal-maths/normal-maths.html"
-            title="Normal Maths - Mind-Bending Mathematical Puzzle Game | Logic Challenge - Normal Maths Full Game"
+            src={gameIframeSrc}
+            title={gameTitle}
             className={`justify-center w-full h-[600px] shadow-2xl border-0 ${
               isFullscreen ? "w-screen h-screen max-w-none rounded-none" : ""
             }`}
@@ -78,16 +83,15 @@ export default function NormalMathsHeroSection() {
               {/* Left Side - Game Info */}
               <div className="flex items-center space-x-2 md:space-x-3 flex-shrink-0">
                 <Image
-                  src="https://s.clicker-game.com/games/normal-maths/normal-maths.jpg"
-                  alt="Normal Maths"
+                  src={gameImageSrc}
+                  alt={gameTitle}
                   width={40}
                   height={40}
                   className="rounded-lg object-cover"
                 />
                 <div className="hidden sm:block">
                   <p className="text-white font-medium text-xs md:text-sm">
-                    Normal Maths - Mind-Bending Mathematical Puzzle Game | Logic
-                    Challenge
+                    {gameTitle}
                   </p>
                   <p className="text-gray-400 text-xs">Free to Play</p>
                 </div>
@@ -136,26 +140,9 @@ export default function NormalMathsHeroSection() {
                 How to Play
               </h2>
               <ol className="list-decimal list-inside space-y-2 text-white text-lg">
-                <li>
-                  Understanding the Interface:Learn the Tiles. Click and drag to
-                  arrange them, following the hidden rules you must deduce.
-                </li>
-                <li>
-                  Pattern Recognition: Master Normal Maths by spotting
-                  mathematical patterns. Analyze how tiles interact and uncover
-                  the numerical relationships that connect them.
-                </li>
-                <li>
-                  Experimental Approach: As you progress in LoveMoney, face
-                  challenging decisions. Each choice affects your story path and
-                  can unlock special earning opportunities or narrative
-                  branches.
-                </li>
-                <li>
-                  Progressive Learning: Master the basics. The rules you learn
-                  in early puzzles are the foundation for solving more complex
-                  challenges later.
-                </li>
+                {howToPlayList.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
               </ol>
             </div>
           </div>
@@ -163,7 +150,7 @@ export default function NormalMathsHeroSection() {
       </div>
       <div className="relative z-10 p-4 sm:p-8">
         <h1 className="hidden md:block text-2xl font-bold py-2 text-white px-4">
-          Normal Maths - Mind-Bending Mathematical Puzzle Game | Logic Challenge
+          {gameTitle} - {gameSubtitle}
         </h1>
       </div>
     </section>
