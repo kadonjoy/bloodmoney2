@@ -4,11 +4,11 @@ import Navbar from "app/components/Navbar";
 import HeroSection from "app/components/HeroSection";
 import GamesGallerySection from "app/components/GamesGallerySection";
 import FeaturesSection from "app/components/FeaturesSection";
-import HowToPlaySection from "app/components/HowToPlaySection";
-import MediaSection from "app/components/MediaSection";
+import MediaCommonSection from "app/components/MediaCommonSection";
 import SearchSection from "app/components/SearchSection";
 import FooterSection from "app/components/FooterSection";
-import NavAdsComponent from "app/components/NavAdsComponent";
+import NavAdsSection from "app/components/NavAdsSection";
+import { bloodMoneyMedia } from "app/configs/MediaData";
 
 export default function Home() {
   useEffect(() => {}, []);
@@ -19,13 +19,18 @@ export default function Home() {
       style={{ scrollSnapType: "y mandatory" }}
     >
       <Navbar />
-      <NavAdsComponent />
+      <NavAdsSection />
       <div id="hero-section-wrapper" className="relative z-10">
         <HeroSection />
       </div>
-      <SearchSection />
       <GamesGallerySection />
-      <MediaSection />
+      <SearchSection />
+      {/* <MediaSection /> */}
+      <MediaCommonSection
+        titleColor="text-blue-400"
+        items={bloodMoneyMedia}
+        scale={150}
+      />
       {/* <AboutSection /> */}
       <FeaturesSection />
       {/* <HowToPlaySection /> */}

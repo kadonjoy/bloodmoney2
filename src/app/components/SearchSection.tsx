@@ -1,18 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-
-interface Game {
-  id: number;
-  name: string;
-}
-
-interface Game {
-  id: number;
-  name: string;
-  image: string;
-  url: string;
-}
+import { Game } from "app/utils/typedefine";
 
 const games: Game[] = [
   {
@@ -28,12 +17,12 @@ const games: Game[] = [
     image: "https://s.clicker-game.com/games/lovemoney/lovemoney-2.jpg",
     url: "/lovemoney",
   },
-  //   {
-  //     id: 3,
-  //     name: "Cyberpunk 2077",
-  //     image: "/images/cyberpunk.jpg",
-  //     url: "/cyberpunk",
-  //   },
+  {
+    id: 3,
+    name: "Normal Maths",
+    image: "https://s.clicker-game.com/games/normal-maths/normal-maths.jpg",
+    url: "/normal-maths",
+  },
   //   {
   //     id: 4,
   //     name: "Elden Ring",

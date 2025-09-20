@@ -22,7 +22,10 @@
     "paths": {
       "@/components/*": ["./components/*"],
       "@/app/ui/*": ["./app/ui/*"],
-      "@/app/games/*": ["./app/games /*"]
+      "@/app/games/*": ["./app/games/*"],
+      "@/app/utils/*": ["./app/utils/*"],
+      "@/app/configs/*": ["./app/configs/*"]
+
     },
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

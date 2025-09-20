@@ -2,16 +2,16 @@
 
 import React, { useEffect } from "react";
 import Navbar from "app/components/Navbar";
-import LoveMoneyHeroSection from "app/components/LoveMoneyHeroSection";
-import LoveMoneyFeaturesSection from "app/components/LoveMoneyFeaturesSection";
+import NormalMathsHeroSection from "app/components/NormalMathsHeroSection";
+import NormalMathsFeaturesSection from "app/components/NormalMathsFeaturesSection";
 import FooterSection from "app/components/FooterSection";
 import NavAdsSection from "app/components/NavAdsSection";
 import SearchSection from "app/components/SearchSection";
 import GamesGallerySection from "app/components/GamesGallerySection";
 import MediaCommonSection from "app/components/MediaCommonSection";
-import { loveMoneyMedia } from "app/configs/MediaData";
+import { normalMathMedia } from "app/configs/MediaData";
 
-export default function LoveMoneyPage() {
+export default function NormalMathsPage() {
   useEffect(() => {}, []);
 
   return (
@@ -22,16 +22,16 @@ export default function LoveMoneyPage() {
       <Navbar />
       <NavAdsSection />
       <div id="hero-section-wrapper" className="relative z-10">
-        <LoveMoneyHeroSection />
+        <NormalMathsHeroSection />
       </div>
       <GamesGallerySection />
       <SearchSection />
       <MediaCommonSection
         titleColor="text-blue-400"
-        items={loveMoneyMedia}
+        items={normalMathMedia}
         scale={150}
       />
-      <LoveMoneyFeaturesSection />
+      <NormalMathsFeaturesSection />
       <FooterSection />
     </div>
   );
