@@ -9,25 +9,19 @@
 <url>
     <loc>https://bloodmoney2.org/lovemoney/</loc>
     <lastmod>2025-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://bloodmoney2.org/normal-maths/</loc>
+    <lastmod>2025-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://bloodmoney2.org/games/</loc>
+    <lastmod>2025-09-20</lastmod>
     <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-</url>
-<url>
-    <loc>https://bloodmoney2.org/#how-to-play</loc>
-    <lastmod>2025-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-</url>
-<url>
-    <loc>https://bloodmoney2.org/#features</loc>
-    <lastmod>2025-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-</url>
-<url>
-    <loc>https://bloodmoney2.org/#media</loc>
-    <lastmod>2025-09-17</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 </urlset>

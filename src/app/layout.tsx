@@ -17,21 +17,13 @@ export const metadata: Metadata = {
   description:
     "Experience BloodMoney 2, the Human Expenditure Program simulation game. Control Harvey Harvington's life with dark comedy and strategic decisions.",
   keywords: [
-    "bloodmoney 2 org",
     "human expenditure program",
     "harvey harvington",
     "life simulation game",
     "dark comedy game",
     "management simulator",
     "bloodmoney game",
-    "free online game",
-    "browser game",
-    "simulation game",
-    "strategy game",
-    "indie game",
-    "dark humor game",
-    "life management",
-    "decision making game",
+    "bloodmoney 2 game",
   ],
   alternates: {
     canonical: "https://bloodmoney2.org/",
