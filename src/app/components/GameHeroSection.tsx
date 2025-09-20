@@ -58,7 +58,7 @@ export default function GameHeroSection({
   return (
     <section
       id="hero"
-      className="section relative w-full h-screen overflow-hidden flex flex-col items-center justify-center text-center"
+      className="section relative w-full min-h-screen flex flex-col items-center justify-center text-center"
     >
       <div className="absolute inset-0 bg-black opacity-60"></div>
       <div
