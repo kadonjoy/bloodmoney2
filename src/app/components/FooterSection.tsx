@@ -22,16 +22,6 @@ export default function FooterSection() {
     }
   };
 
-  // const pathName = usePathname();
-  // console.log("Current pathname:", pathName);
-  // let title = "";
-
-  // if (pathName === "/") {
-  //   title = "BloodMoney 2";
-  // } else if (pathName === "/lovemoney") {
-  //   title = "LoveMoney";
-  // }
-
   return (
     <footer className="bg-gray-800 text-white py-12">
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

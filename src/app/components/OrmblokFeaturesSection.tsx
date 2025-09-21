@@ -10,7 +10,7 @@ const TABS = [
   { key: "faq", label: "FAQ" },
 ];
 
-export default function NormalMathsFeaturesSection() {
+export default function OrmblokFeaturesSection() {
   const [activeTab, setActiveTab] = useState("about");
 
   return (
@@ -42,13 +42,13 @@ export default function NormalMathsFeaturesSection() {
           {activeTab === "about" && (
             <div className="py-8">
               <h2 className="text-3xl font-bold text-center mb-12 text-indigo-400">
-                What is Normal Maths?
+                What is Ormblok?
               </h2>
               <div className="flex flex-col md:flex-row items-center gap-12 mb-12">
                 <div className="flex-1">
                   <Image
-                    src="https://s.clicker-game.com/games/normal-maths/normal-maths.jpg"
-                    alt="Normal Maths - Mind-Bending Mathematical Puzzle Game | Logic Challenge"
+                    src="https://s.clicker-game.com/games/ormblok/ormblok.jpg"
+                    alt="Ormblok - Arcade Puzzle Game | Tetris Meets Snake Adventure"
                     className="w-full rounded-2xl shadow-xl"
                     width={800}
                     height={600}
@@ -57,103 +57,97 @@ export default function NormalMathsFeaturesSection() {
                 </div>
                 <div className="flex-1 space-y-6">
                   <p className="text-lg leading-relaxed text-gray-200">
-                    Welcome to Normal Maths, step into Logic Quest, where sharp
-                    reasoning blends with creative puzzle mechanics. This
-                    engaging challenge invites players to uncover hidden
-                    patterns through clever interactions, offering a fresh and
-                    thought-provoking twist on classic brain games.
+                    Ormblok revolutionizes classic puzzle gaming by merging
+                    Tetris-style block dropping with Snake mechanics. This Game
+                    Boy Color inspired arcade puzzle challenges you to think
+                    differently about falling blocks - create gaps, not lines!
                   </p>
                 </div>
               </div>
               <div className="prose prose-lg max-w-4xl mx-auto space-y-6 text-gray-300">
                 <p>
-                  Normal Maths revolutionizes the puzzle genre by combining
-                  mathematical thinking with intuitive tile-based gameplay.
-                  Created by Late Nine, this innovative game challenges players
-                  to uncover hidden rules through experimentation and logical
-                  deduction. Each of the 18 puzzles in Normal Maths presents a
-                  unique challenge that requires players to think outside
-                  conventional puzzle-solving approaches, making it a standout
-                  experience in the mathematical gaming landscape.
+                  Ormblok stands out in the puzzle game genre by completely
+                  reimagining how we interact with falling blocks. Created by
+                  Ben Jelter and Mike Leisz for GB Compo 2025, this innovative
+                  title flips traditional Tetris logic on its head. Instead of
+                  clearing lines, Ormblok challenges you to strategically create
+                  gaps that transform into pellets for your worm to consume.
+                  This unique mechanic creates an entirely new puzzle experience
+                  that feels both familiar and refreshingly different.
                 </p>
                 <div className="my-8 flex justify-center">
                   <div className="my-8 flex flex-col items-center">
                     <Image
-                      src="https://s.clicker-game.com/games/normal-maths/normal-maths-2.jpg"
-                      alt="Normal Maths Puzzle"
-                      className="w-full rounded-xl shadow-lg"
+                      src="https://s.clicker-game.com/games/ormblok/ormblok-2.jpg"
+                      alt="Ormblok Gameplay - Block Dropping Phase"
                       width={800}
                       height={600}
+                      className="object-cover rounded-xl shadow-lg"
                       priority={false} // true if you want to prioritize loading
                     />
                     <p className="text-center mt-3 text-sm text-gray-400 italic">
-                      Experience the minimalist beauty of Normal Maths puzzle
-                      challenges
+                      Strategic block placement creates opportunities in Ormblok
                     </p>
                   </div>
                 </div>
                 <p>
-                  The genius of Normal Maths lies in its deceptively simple
-                  mechanics paired with deeply complex puzzles. Players click
-                  and drag colored tiles to form patterns, but the rules
-                  governing these patterns remain mysteriously hidden. Normal
-                  Maths doesn&apos;t explain its mechanics upfront - instead, it
-                  invites players to discover the mathematical relationships
-                  through trial and error. This approach transforms each puzzle
-                  into a journey of discovery, where understanding the
-                  underlying logic becomes as rewarding as solving the puzzle
-                  itself.
+                  The genius of Ormblok lies in its dual-phase gameplay system.
+                  During the block phase, you arrange falling pieces to create
+                  strategic 2x2 gaps in the playfield. Once you&apos;ve built
+                  your arena, the game seamlessly transitions to Worm Mode,
+                  where you control a snake-like creature navigating through
+                  your creation to eat pellets. Each round in Ormblok increases
+                  the target goal dramatically, pushing your strategic planning
+                  and quick-thinking abilities to their limits.
                 </p>
                 <div className="my-8 flex justify-center">
                   <div className="my-8 flex flex-col items-center">
                     <Image
-                      src="https://s.clicker-game.com/games/normal-maths/normal-maths-3.jpg"
-                      alt="Normal Maths Puzzle"
-                      className="w-full rounded-xl shadow-lg"
+                      src="https://s.clicker-game.com/games/ormblok/ormblok-3.jpg"
+                      alt="Ormblok Worm Mode Activated"
                       width={800}
                       height={600}
+                      className="justify-center rounded-xl shadow-lg"
                       priority={false} // true if you want to prioritize loading
                     />
                     <p className="text-center mt-3 text-sm text-gray-400 italic">
-                      Master tile manipulation in Normal Maths logic puzzles
+                      Guide your worm through created gaps to score points
                     </p>
                   </div>
                 </div>
                 <p>
-                  What sets Normal Maths apart from traditional puzzle games is
-                  its emphasis on abstract mathematical thinking. Drawing
-                  inspiration from acclaimed puzzle games like Glowmaker and
-                  GestaltOS, Normal Maths creates a unique experience where
-                  numbers, symbols, and colors interact in unexpected ways.
-                  Players must decode these relationships to progress through
-                  increasingly challenging levels, making Normal Maths both a
-                  test of logical reasoning and creative problem-solving
-                  abilities.
+                  What makes Ormblok particularly engaging is its risk-reward
+                  scoring system. The game encourages bold strategies by
+                  offering exponentially higher points for more challenging
+                  setups. Players must decide whether to play it safe with
+                  simple patterns or attempt complex arrangements that could
+                  yield massive scores. This depth transforms Ormblok from a
+                  simple puzzle game into a strategic masterpiece where every
+                  block placement matters.
                 </p>
                 <div className="my-8 flex justify-center">
-                  <div className="my-8 flex flex-col items-center">
+                  <div className="max-w-2xl w-full">
                     <Image
-                      src="https://s.clicker-game.com/games/normal-maths/normal-maths-4.jpg"
-                      alt="Normal Maths Pattern Recognition Challenge"
+                      src="https://s.clicker-game.com/games/ormblok/ormblok-4.jpg"
+                      alt="Ormblok Advanced Strategies"
                       className="w-full rounded-xl shadow-lg"
                       width={800}
                       height={600}
-                      priority={false} // true if you want to prioritize loading
                     />
                     <p className="text-center mt-3 text-sm text-gray-400 italic">
-                      Discover hidden mathematical patterns in Normal Maths
+                      Master risk-reward gameplay for exponential scoring
                     </p>
                   </div>
                 </div>
                 <p>
-                  Experience Normal Maths online for free and join a community
-                  of puzzle enthusiasts who praise its innovative design.
-                  Whether you&apos;re a mathematics lover or simply enjoy
-                  challenging brain teasers, Normal Maths offers hours of
-                  engaging gameplay. The minimalist aesthetic combined with
-                  complex mathematical puzzles creates an addictive experience
-                  that keeps players coming back to discover new solutions and
-                  hidden patterns in this extraordinary puzzle game.
+                  Developed using GB Studio 4.2, Ormblok captures the nostalgic
+                  charm of Game Boy Color classics while introducing modern
+                  gameplay innovations. The minimalist pixel art style keeps the
+                  focus on pure gameplay, while responsive controls ensure that
+                  success in Ormblok depends entirely on your skill and
+                  strategy. Whether you&apos;re a puzzle game veteran or new to
+                  the genre, Ormblok offers an accessible yet deeply challenging
+                  experience.
                 </p>
               </div>
             </div>
@@ -163,7 +157,7 @@ export default function NormalMathsFeaturesSection() {
           {activeTab === "features" && (
             <div className="py-8">
               <h2 className="text-3xl font-bold text-center mb-12 text-indigo-400">
-                Normal Maths Core Features
+                Ormblok Core Features
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div className="bg-gray-800 p-6 rounded-2xl shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-2">
@@ -171,13 +165,13 @@ export default function NormalMathsFeaturesSection() {
                     <i className="fas fa-theater-masks"></i>
                   </div>
                   <h3 className="text-xl font-semibold mb-4">
-                    Hidden Rule Discovery
+                    Innovative Hybrid Gameplay
                   </h3>
                   <p className="text-gray-300">
-                    Normal Maths challenges players to uncover secret
-                    mathematical rules through experimentation. Each puzzle
-                    contains unique logic that must be discovered through
-                    careful observation and testing.
+                    Ormblok uniquely combines Tetris-style block dropping with
+                    Snake mechanics. Create strategic gaps with falling blocks,
+                    then guide your worm through the playfield you&apos;ve
+                    built.
                   </p>
                 </div>
                 <div className="bg-gray-800 p-6 rounded-2xl shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-2">
@@ -185,13 +179,13 @@ export default function NormalMathsFeaturesSection() {
                     <i className="fas fa-music"></i>
                   </div>
                   <h3 className="text-xl font-semibold mb-4">
-                    18 Unique Puzzles
+                    Risk-Reward Scoring System
                   </h3>
                   <p className="text-gray-300">
-                    Experience 18 carefully crafted challenges in Normal Maths.
-                    Each puzzle introduces new concepts and mathematical
-                    relationships, ensuring fresh gameplay throughout your
-                    journey.
+                    Master Ormblok&apos;s exponential scoring by taking
+                    calculated risks. More complex strategies yield dramatically
+                    higher points, rewarding skilled players with massive score
+                    multipliers.
                   </p>
                 </div>
                 <div className="bg-gray-800 p-6 rounded-2xl shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-2">
@@ -199,13 +193,12 @@ export default function NormalMathsFeaturesSection() {
                     <i className="fas fa-magic"></i>
                   </div>
                   <h3 className="text-xl font-semibold mb-4">
-                    Minimalist Design
+                    Progressive Difficulty
                   </h3>
                   <p className="text-gray-300">
-                    Normal Maths features clean, colorful tile-based visuals
-                    that focus attention on puzzle-solving. The elegant
-                    interface enhances the mathematical challenge without
-                    unnecessary distractions.
+                    Each round in Ormblok increases the challenge significantly.
+                    Progress through 9 increasingly demanding levels that test
+                    your puzzle-solving abilities and reflexes.
                   </p>
                 </div>
                 <div className="bg-gray-800 p-6 rounded-2xl shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-2">
@@ -213,13 +206,13 @@ export default function NormalMathsFeaturesSection() {
                     <i className="fas fa-globe"></i>
                   </div>
                   <h3 className="text-xl font-semibold mb-4">
-                    Multiple Solutions
+                    Retro Game Boy Aesthetics
                   </h3>
                   <p className="text-gray-300">
-                    Many Normal Maths puzzles offer various valid solutions,
-                    encouraging creative thinking and replayability. Discover
-                    different approaches to solve the same mathematical
-                    challenges.
+                    Experience authentic Game Boy Color visuals in Ormblok.
+                    Minimalist pixel art and classic sound effects create a
+                    nostalgic atmosphere while maintaining modern gameplay
+                    standards.
                   </p>
                 </div>
               </div>
@@ -230,7 +223,7 @@ export default function NormalMathsFeaturesSection() {
           {activeTab === "howto" && (
             <div className="py-8">
               <h2 className="text-3xl font-bold text-center mb-12 text-indigo-400">
-                How to Master Normal Maths
+                How to Master Ormblok
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div className="bg-gradient-to-br from-indigo-900 to-indigo-700 p-6 rounded-2xl shadow-md transition duration-300 hover:shadow-2xl hover:-translate-y-2">
@@ -238,12 +231,13 @@ export default function NormalMathsFeaturesSection() {
                     1
                   </div>
                   <h3 className="text-xl font-semibold mb-4 text-indigo-100">
-                    Understanding the Interface
+                    Understanding the Basics
                   </h3>
                   <p className="text-gray-200">
-                    Start your Normal Maths journey by familiarizing yourself
-                    with the tile placement system. Click and drag tiles to
-                    position them according to hidden mathematical rules.
+                    Begin your Ormblok journey by learning the fundamental
+                    mechanics. Use falling blocks to create 2x2 gaps in the
+                    playfield, which transform into edible pellets for your
+                    worm.
                   </p>
                 </div>
                 <div className="bg-gradient-to-br from-indigo-900 to-indigo-700 p-6 rounded-2xl shadow-md transition duration-300 hover:shadow-2xl hover:-translate-y-2">
@@ -251,12 +245,12 @@ export default function NormalMathsFeaturesSection() {
                     2
                   </div>
                   <h3 className="text-xl font-semibold mb-4 text-indigo-100">
-                    Pattern Recognition
+                    Creating Strategic Gaps
                   </h3>
                   <p className="text-gray-200">
-                    Success in Normal Maths requires identifying mathematical
-                    patterns. Observe how tiles interact, looking for numerical
-                    relationships and logical connections between elements.
+                    Success in Ormblok requires thoughtful gap placement. Plan
+                    your block arrangements to create accessible paths for your
+                    worm while maximizing pellet generation opportunities.
                   </p>
                 </div>
                 <div className="bg-gradient-to-br from-indigo-900 to-indigo-700 p-6 rounded-2xl shadow-md transition duration-300 hover:shadow-2xl hover:-translate-y-2">
@@ -264,13 +258,12 @@ export default function NormalMathsFeaturesSection() {
                     3
                   </div>
                   <h3 className="text-xl font-semibold mb-4 text-indigo-100">
-                    Experimental Approach
+                    Mastering Worm Control
                   </h3>
                   <p className="text-gray-200">
-                    Normal Maths rewards experimentation. Try different tile
-                    arrangements to discover the underlying rules. Use the
-                    backspace key to clear and restart when exploring new
-                    solutions.
+                    Once you enter Worm Mode in Ormblok, navigate carefully
+                    through your created maze. Eat all pellets while avoiding
+                    walls and your own tail to complete each round.
                   </p>
                 </div>
                 <div className="bg-gradient-to-br from-indigo-900 to-indigo-700 p-6 rounded-2xl shadow-md transition duration-300 hover:shadow-2xl hover:-translate-y-2">
@@ -278,12 +271,12 @@ export default function NormalMathsFeaturesSection() {
                     4
                   </div>
                   <h3 className="text-xl font-semibold mb-4 text-indigo-100">
-                    Progressive Learning
+                    Optimizing Your Score
                   </h3>
                   <p className="text-gray-200">
-                    Each Normal Maths puzzle builds on previous concepts. Take
-                    time to understand earlier puzzles thoroughly, as their
-                    principles often apply to later, more complex challenges.
+                    Push your Ormblok skills by attempting high-risk strategies.
+                    Create complex patterns that challenge your worm navigation
+                    abilities but offer exponentially higher point rewards.
                   </p>
                 </div>
               </div>
@@ -294,42 +287,35 @@ export default function NormalMathsFeaturesSection() {
           {activeTab === "history" && (
             <div className="py-8">
               <h2 className="text-3xl font-bold text-center mb-12 text-indigo-400">
-                The Creation of Normal Maths
+                The Creation of Ormblok
               </h2>
               <div className="max-w-3xl mx-auto space-y-6 text-gray-300">
                 <p>
-                  Normal Maths emerged from developer Late Nine&apos;s vision to
-                  create a puzzle game that challenges conventional thinking
-                  about mathematics and logic. Inspired by innovative puzzle
-                  games like Alphabet Soup for Picky Eater and Fremda, the
-                  creator sought to design an experience where mathematical
-                  discovery becomes the core gameplay mechanic. The result is
-                  Normal Maths, a game that transforms abstract mathematical
-                  concepts into tangible, interactive puzzles.
+                  Ormblok was born from a collaboration between developers Ben
+                  Jelter and Mike Leisz during GB Compo 2025. The three-month
+                  development journey focused on creating something truly unique
+                  in the oversaturated puzzle game market. By combining two
+                  classic game mechanics - Tetris and Snake - the team crafted
+                  an experience that challenges conventional puzzle game
+                  thinking.
                 </p>
                 <p>
-                  The development of Normal Maths focused on creating puzzles
-                  that feel both familiar and alien. By using simple tile-based
-                  mechanics, Late Nine made the game accessible, while the
-                  hidden mathematical rules ensure depth and complexity. Each
-                  puzzle in Normal Maths was meticulously designed to introduce
-                  new logical concepts while maintaining the game&apos;s
-                  minimalist aesthetic. The custom Alforim font adds to the
-                  unique visual identity that makes Normal Maths instantly
-                  recognizable.
+                  The development process for Ormblok utilized GB Studio 4.2,
+                  allowing the creators to achieve authentic Game Boy Color
+                  aesthetics while implementing modern gameplay innovations.
+                  Original music by Robotmeadows and sound effects by Beatscribe
+                  enhance the retro atmosphere, creating an immersive experience
+                  that pays homage to classic handheld gaming while pushing
+                  boundaries.
                 </p>
                 <p>
-                  Since its release, Normal Maths has garnered critical acclaim
-                  from the puzzle gaming community. Players praise its
-                  innovative approach to mathematical puzzles, with many
-                  comparing Late Nine to renowned puzzle creators like Increpare
-                  and Jonathan Blow. The game&apos;s ability to challenge
-                  players for hours - with some taking over two hours to
-                  complete all 18 puzzles - demonstrates the depth and
-                  complexity that Normal Maths brings to the puzzle genre. Its
-                  success has inspired fan-made level editors and a dedicated
-                  community of players who continue to explore the mathematical
-                  mysteries within Normal Maths.
+                  Since its release, Ormblok has garnered attention from puzzle
+                  game enthusiasts and retro gaming communities alike. Players
+                  praise its innovative approach to familiar mechanics, tight
+                  controls, and the satisfying challenge of mastering its
+                  risk-reward system. The success of Ormblok demonstrates that
+                  there&apos;s still room for innovation in classic game genres
+                  when developers think outside conventional design patterns.
                 </p>
               </div>
             </div>
@@ -339,37 +325,37 @@ export default function NormalMathsFeaturesSection() {
           {activeTab === "community" && (
             <div className="py-8">
               <h2 className="text-3xl font-bold text-center mb-12 text-indigo-400">
-                Normal Maths Player Testimonials
+                Ormblok Player Reviews
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
                   <p className="text-gray-200 mb-4">
-                    Normal Maths is a truly great puzzle game. The way it makes
-                    you discover mathematical rules through experimentation is
-                    brilliant. Happy to have seen it!
+                    Ormblok completely changed how I think about puzzle games.
+                    The combination of block dropping and snake mechanics
+                    creates endless strategic possibilities.
                   </p>
                   <p className="text-indigo-300 font-semibold">
-                    - Puzzle Game Enthusiast
+                    - Retro Gaming Enthusiast
                   </p>
                 </div>
                 <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
                   <p className="text-gray-200 mb-4">
-                    Late Nine has created something special with Normal Maths.
-                    It&apos;s one of the most innovative mathematical puzzle
-                    games I&apos;ve played, right up there with the greats.
+                    The risk-reward system in Ormblok is perfectly balanced.
+                    Every decision matters, and pulling off a high-scoring
+                    strategy feels incredibly satisfying.
                   </p>
                   <p className="text-indigo-300 font-semibold">
-                    - Logic Game Veteran
+                    - Puzzle Game Expert
                   </p>
                 </div>
                 <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
                   <p className="text-gray-200 mb-4">
-                    Normal Maths was so much fun! The challenge of uncovering
-                    hidden rules kept me engaged for hours. Thank you for making
-                    such a unique puzzle experience!
+                    Ormblok captures the magic of Game Boy classics while
+                    offering something genuinely new. It&apos;s the puzzle game
+                    innovation we&apos;ve been waiting for.
                   </p>
                   <p className="text-indigo-300 font-semibold">
-                    - Mathematics Teacher
+                    - Indie Game Reviewer
                   </p>
                 </div>
               </div>
@@ -385,55 +371,61 @@ export default function NormalMathsFeaturesSection() {
               <div className="space-y-6 max-w-4xl mx-auto">
                 <div className="bg-gradient-to-r from-gray-800 to-gray-900 p-6 rounded-2xl shadow-md transition duration-300 hover:shadow-xl">
                   <h3 className="text-xl font-semibold mb-4 text-indigo-300">
-                    What exactly is Normal Maths?
+                    What is Ormblok?
                   </h3>
                   <p className="text-gray-200">
-                    Normal Maths is an innovative mathematical puzzle game where
-                    players discover hidden rules by manipulating colored tiles.
-                    It challenges logical thinking and pattern recognition
-                    through 18 unique puzzles.
+                    Ormblok is an innovative arcade puzzle game that combines
+                    Tetris-style block dropping with Snake mechanics, where you
+                    create gaps for a worm to navigate and eat pellets.
                   </p>
                 </div>
                 <div className="bg-gradient-to-r from-gray-800 to-gray-900 p-6 rounded-2xl shadow-md transition duration-300 hover:shadow-xl">
                   <h3 className="text-xl font-semibold mb-4 text-indigo-300">
-                    Is Normal Maths free to play?
+                    Is Ormblok free?
                   </h3>
                   <p className="text-gray-200">
-                    Yes! You can play Normal Maths completely free online
-                    through our website. Experience all 18 challenging puzzles
-                    without any cost.
+                    Yes! You can play the complete Ormblok experience online for
+                    free.
                   </p>
                 </div>
                 <div className="bg-gradient-to-r from-gray-800 to-gray-900 p-6 rounded-2xl shadow-md transition duration-300 hover:shadow-xl">
                   <h3 className="text-xl font-semibold mb-4 text-indigo-300">
-                    How long does it take to complete Normal Maths?
+                    What platforms can I play Ormblok on?
                   </h3>
                   <p className="text-gray-200">
-                    Most players spend 1-3 hours completing all puzzles in
-                    Normal Maths, though solving time varies based on
-                    puzzle-solving experience and mathematical intuition.
+                    Ormblok runs in your web browser and is also available as a
+                    Game Boy Color ROM for authentic retro hardware or
+                    emulators.
                   </p>
                 </div>
                 <div className="bg-gradient-to-r from-gray-800 to-gray-900 p-6 rounded-2xl shadow-md transition duration-300 hover:shadow-xl">
                   <h3 className="text-xl font-semibold mb-4 text-indigo-300">
-                    What makes Normal Maths different from other puzzle games?{" "}
+                    How many levels does Ormblok have?
                   </h3>
                   <p className="text-gray-200">
-                    Normal Maths uniquely combines hidden rule discovery with
-                    mathematical logic. Unlike traditional puzzles, Normal Maths
-                    doesn&apos;t explain its mechanics - players must discover
-                    them through experimentation.
+                    Ormblok features 9 progressively challenging rounds, each
+                    with dramatically increasing difficulty and scoring
+                    opportunities.
                   </p>
                 </div>
                 <div className="bg-gradient-to-r from-gray-800 to-gray-900 p-6 rounded-2xl shadow-md transition duration-300 hover:shadow-xl">
                   <h3 className="text-xl font-semibold mb-4 text-indigo-300">
-                    Do I need to be good at math to play Normal Maths?{" "}
+                    What makes Ormblok different from Tetris?
                   </h3>
                   <p className="text-gray-200">
-                    While mathematical thinking helps, Normal Maths is more
-                    about pattern recognition and logical deduction than
-                    traditional math skills. Anyone who enjoys puzzles can
-                    succeed.
+                    Unlike Tetris where you clear lines, Ormblok requires you to
+                    create gaps that become pellets, then control a worm to eat
+                    them.
+                  </p>
+                </div>
+                <div className="bg-gradient-to-r from-gray-800 to-gray-900 p-6 rounded-2xl shadow-md transition duration-300 hover:shadow-xl">
+                  <h3 className="text-xl font-semibold mb-4 text-indigo-300">
+                    Can beginners enjoy Ormblok?
+                  </h3>
+                  <p className="text-gray-200">
+                    Absolutely! Ormblok includes helpful tutorials and starts
+                    with manageable difficulty, making it accessible for
+                    newcomers while offering depth for experts.
                   </p>
                 </div>
               </div>

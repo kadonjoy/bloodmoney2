@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 
 const TABS = [
   { key: "about", label: "About" },
@@ -45,10 +46,13 @@ export default function LoveMoneyFeaturesSection() {
               </h2>
               <div className="flex flex-col md:flex-row items-center gap-12 mb-12">
                 <div className="flex-1">
-                  <img
+                  <Image
                     src="https://s.clicker-game.com/games/lovemoney/lovemoney.jpg"
                     alt="LoveMoney - Click Your Way Through Moral Choices | Story-Driven Clicker RPG"
                     className="w-full rounded-2xl shadow-xl"
+                    width={328}
+                    height={182}
+                    priority={false} // true if you want to prioritize loading
                   />
                 </div>
                 <div className="flex-1 space-y-6">
@@ -73,7 +77,15 @@ export default function LoveMoneyFeaturesSection() {
                   love and money.
                 </p>
                 <div className="my-8 flex justify-center">
-                  <div className="max-w-2xl w-full">
+                  <div className="my-8 flex flex-col items-center">
+                    <Image
+                      src="https://s.clicker-game.com/games/lovemoney/lovemoney.jpg"
+                      alt="LoveMoney - Click Your Way Through Moral Choices | Story-Driven Clicker RPG"
+                      className="w-full rounded-2xl shadow-xl"
+                      width={800}
+                      height={600}
+                      priority={false} // true if you want to prioritize loading
+                    />
                     <p className="text-center mt-3 text-sm text-gray-400 italic">
                       Begin your journey in LoveMoney&apos;s unique clicking
                       adventure
@@ -91,11 +103,14 @@ export default function LoveMoneyFeaturesSection() {
                   of desperation lead you to cross moral lines?
                 </p>
                 <div className="my-8 flex justify-center">
-                  <div className="max-w-2xl w-full">
-                    <img
+                  <div className="my-8 flex flex-col items-center">
+                    <Image
                       src="https://s.clicker-game.com/games/lovemoney/lovemoney-2.jpg"
                       alt="LoveMoney Moral Choice System"
                       className="w-full rounded-xl shadow-lg"
+                      width={800}
+                      height={600}
+                      priority={false} // true if you want to prioritize loading
                     />
                     <p className="text-center mt-3 text-sm text-gray-400 italic">
                       Face difficult decisions that impact your story
@@ -113,11 +128,14 @@ export default function LoveMoneyFeaturesSection() {
                   distinct endings.
                 </p>
                 <div className="my-8 flex justify-center">
-                  <div className="max-w-2xl w-full">
-                    <img
+                  <div className="my-8 flex flex-col items-center">
+                    <Image
                       src="https://s.clicker-game.com/games/lovemoney/lovemoney-3.jpg"
                       alt="LoveMoney Upgrade Interface"
                       className="w-full rounded-xl shadow-lg"
+                      width={800}
+                      height={600}
+                      priority={false} // true if you want to prioritize loading
                     />
                     <p className="text-center mt-3 text-sm text-gray-400 italic">
                       Strategic upgrades enhance your earning potential

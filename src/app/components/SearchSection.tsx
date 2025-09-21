@@ -23,12 +23,12 @@ const games: Game[] = [
     image: "https://s.clicker-game.com/games/normal-maths/normal-maths.jpg",
     url: "/normal-maths",
   },
-  //   {
-  //     id: 4,
-  //     name: "Elden Ring",
-  //     image: "/images/eldenring.jpg",
-  //     url: "/eldenring",
-  //   },
+  {
+    id: 4,
+    name: "Ormblok",
+    image: "https://s.clicker-game.com/games/ormblok/ormblok.jpg",
+    url: "/ormblok",
+  },
   //   {
   //     id: 5,
   //     name: "Minecraft",

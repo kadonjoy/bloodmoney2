@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 
 const TABS = [
   { key: "about", label: "About" },
@@ -45,10 +46,13 @@ export default function FeaturesSection() {
               </h2>
               <div className="flex flex-col md:flex-row items-center gap-12 mb-12">
                 <div className="flex-1">
-                  <img
+                  <Image
                     src="https://s.clicker-game.com/games/human-expenditure-program-bloodmoney-2/human-expenditure-program-bloodmoney-2.jpg"
                     alt="BloodMoney 2 - Human Expenditure Program"
                     className="w-full rounded-2xl shadow-xl"
+                    width={800}
+                    height={600}
+                    priority={false} // true if you want to prioritize loading
                   />
                 </div>
                 <div className="flex-1 space-y-6">
@@ -68,11 +72,14 @@ export default function FeaturesSection() {
                   price, and your decisions shape the outcome of his journey.
                 </p>
                 <div className="my-8 flex justify-center">
-                  <div className="max-w-2xl w-full">
-                    <img
+                  <div className="my-8 flex flex-col items-center">
+                    <Image
                       src="https://s.clicker-game.com/games/human-expenditure-program-bloodmoney-2/human-expenditure-program-bloodmoney-2-2.jpg"
                       alt="BloodMoney 2 Gameplay"
                       className="w-full rounded-xl shadow-lg"
+                      width={800}
+                      height={600}
+                      priority={false} // true if you want to prioritize loading
                     />
                     <p className="text-center mt-3 text-sm text-gray-400 italic">
                       Guide Harvey through unexpected events and moral choices
@@ -86,11 +93,14 @@ export default function FeaturesSection() {
                   strategy.
                 </p>
                 <div className="my-8 flex justify-center">
-                  <div className="max-w-2xl w-full">
-                    <img
+                  <div className="my-8 flex flex-col items-center">
+                    <Image
                       src="https://s.clicker-game.com/games/human-expenditure-program-bloodmoney-2/human-expenditure-program-bloodmoney-2-3.jpg"
                       alt="Resource Management"
                       className="w-full rounded-xl shadow-lg"
+                      width={800}
+                      height={600}
+                      priority={false} // true if you want to prioritize loading
                     />
                     <p className="text-center mt-3 text-sm text-gray-400 italic">
                       Balance health, money, and happiness in a satirical world
@@ -103,11 +113,14 @@ export default function FeaturesSection() {
                   action is monetized, and your choices have real consequences.
                 </p>
                 <div className="my-8 flex justify-center">
-                  <div className="max-w-2xl w-full">
-                    <img
+                  <div className="my-8 flex flex-col items-center">
+                    <Image
                       src="https://s.clicker-game.com/games/human-expenditure-program-bloodmoney-2/human-expenditure-program-bloodmoney-2-4.jpg"
                       alt="Decision Making"
                       className="w-full rounded-xl shadow-lg"
+                      width={800}
+                      height={600}
+                      priority={false} // true if you want to prioritize loading
                     />
                     <p className="text-center mt-3 text-sm text-gray-400 italic">
                       Every decision leads to new outcomes and endings

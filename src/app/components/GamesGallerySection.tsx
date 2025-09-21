@@ -31,6 +31,12 @@ const gamesData: Game[] = [
     title: "Normal Maths",
     isPopular: true,
   },
+  {
+    href: "/ormblok",
+    image: "https://s.clicker-game.com/games/ormblok/ormblok.jpg",
+    title: "Ormblok",
+    isPopular: true,
+  },
   // You can continue to add more games...
 ];
 

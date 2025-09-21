@@ -40,7 +40,7 @@ export default function Home() {
         />
       </div>
       <GamesGallerySection />
-
+      <FootBarAdsSection />
       <SearchSection />
       {/* <MediaSection /> */}
       <MediaCommonSection
@@ -51,7 +51,7 @@ export default function Home() {
       {/* <AboutSection /> */}
       <FeaturesSection />
       {/* <HowToPlaySection /> */}
-      <FootBarAdsSection />
+      {/* <FootBarAdsSection /> */}
       <FooterSection />
     </div>
   );

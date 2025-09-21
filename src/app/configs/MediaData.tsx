@@ -50,3 +50,19 @@ export const normalMathMedia: MediaItem[] = [
       "a unique tile-based puzzle game that challenges you to deduce hidden rules, solve complex logic problems",
   },
 ];
+
+export const ormblokMedia: MediaItem[] = [
+  {
+    src: "https://www.youtube.com/embed/D9a3CDtgyaY",
+    title: "OrmBlok - An arcade style falling block game with a twist!",
+    videoTitle: "OrmBlok - An arcade style falling block game with a twist!",
+    description: "OrmBlok is an arcade style falling block game with a twist.",
+  },
+  {
+    src: "https://www.youtube.com/embed/FnIP7XgEhSE?si=R9dybyN-BvZT3ka4",
+    title: "Ormblok Strategy Guide",
+    videoTitle: "Ormblok Strategy Guide",
+    description:
+      "This is a video demonstration of how to play OrmBlok and get a high score.",
+  },
+];
