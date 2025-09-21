@@ -220,7 +220,7 @@ export default function PrivacyPolicy() {
             </section>
 
             {/* Contact Information */}
-            <section>
+            {/* <section>
               <h3 className="text-2xl font-bold text-blue-400 mb-4">
                 10. Contact Us
               </h3>
@@ -232,11 +232,11 @@ export default function PrivacyPolicy() {
                 <p className="text-gray-300">
                   <strong>Email:</strong> privacy@bloodmoney2.org
                 </p>
-                {/* <p className="text-gray-300 mt-2">
+                <p className="text-gray-300 mt-2">
                   <strong>Website:</strong> https://bloodmoney2.org/contact
-                </p> */}
+                </p>
               </div>
-            </section>
+            </section> */}
           </div>
 
           {/* Footer */}
