@@ -9,6 +9,7 @@ import FooterSection from "app/components/FooterSection";
 import NavAdsSection from "app/components/NavAdsSection";
 import { bloodMoneyMedia } from "app/configs/MediaData";
 import GameHeroSection from "app/components/GameHeroSection";
+import FootBarAdsSection from "app/components/FootBarAdsSection";
 
 const bloodMoney2HowToPlay = [
   "Start the Program: Enter the Human Expenditure Program and review Harvey's current stats and situation.",
@@ -50,7 +51,7 @@ export default function Home() {
       {/* <AboutSection /> */}
       <FeaturesSection />
       {/* <HowToPlaySection /> */}
-      {/* <NewsSection /> */}
+      <FootBarAdsSection />
       <FooterSection />
     </div>
   );
