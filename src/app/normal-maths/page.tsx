@@ -10,6 +10,7 @@ import GamesGallerySection from "app/components/GamesGallerySection";
 import GameHeroSection from "app/components/GameHeroSection";
 import MediaCommonSection from "app/components/MediaCommonSection";
 import { normalMathMedia } from "app/configs/MediaData";
+import ReadyToPlaySection from "app/components/ReadyToPlaySection";
 
 const normalMathsHowToPlay = [
   "Understanding the Interface: Start your Normal Maths journey by familiarizing yourself with the tile placement system. Click and drag tiles to position them according to hidden mathematical rules.",
@@ -46,6 +47,11 @@ export default function NormalMathsPage() {
         scale={150}
       />
       <NormalMathsFeaturesSection />
+      <ReadyToPlaySection
+        playNowHref={"/normal-maths"}
+        gameTitle={"Normal Maths"}
+      />
+
       <FooterSection />
     </div>
   );

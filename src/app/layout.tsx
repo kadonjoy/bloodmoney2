@@ -25,11 +25,7 @@ export const metadata: Metadata = {
     "bloodmoney game",
     "bloodmoney 2 game",
   ],
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    // maximumScale: 1,
-  },
+
   alternates: {
     canonical: "https://bloodmoney2.org/",
   },
@@ -81,7 +77,11 @@ export const metadata: Metadata = {
     ],
   },
 };
-
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  // maximumScale: 1,
+};
 export default function RootLayout({
   children,
 }: Readonly<{

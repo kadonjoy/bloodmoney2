@@ -10,6 +10,7 @@ import GamesGallerySection from "app/components/GamesGallerySection";
 import MediaCommonSection from "app/components/MediaCommonSection";
 import GameHeroSection from "app/components/GameHeroSection";
 import { ormblokMedia } from "app/configs/MediaData";
+import ReadyToPlaySection from "app/components/ReadyToPlaySection";
 
 const ormblokHowToPlay = [
   "Understand the Basics: Begin your Ormblok journey by learning the fundamental mechanics. Use falling blocks to create 2x2 gaps in the playfield, which transform into edible pellets for your worm.",
@@ -45,6 +46,7 @@ export default function OrmBlokPage() {
         scale={150}
       />
       <OrmblokFeaturesSection />
+      <ReadyToPlaySection playNowHref={"/ormblok"} gameTitle={"OrmBlok"} />
       <FooterSection />
     </div>
   );

@@ -29,12 +29,12 @@ const games: Game[] = [
     image: "https://s.clicker-game.com/games/ormblok/ormblok.jpg",
     url: "/ormblok",
   },
-  //   {
-  //     id: 5,
-  //     name: "Minecraft",
-  //     image: "/images/minecraft.jpg",
-  //     url: "/minecraft",
-  //   },
+  {
+    id: 5,
+    name: "BloodMoney",
+    image: "https://s.clicker-game.com/games/bloodmoney/bloodmoney.jpg",
+    url: "/bloodmoney",
+  },
 ];
 
 export default function SearchSection() {

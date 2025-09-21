@@ -27,3 +27,8 @@ export interface GameHeroSectionProps {
   gameImageSrc: string;
   howToPlayList: string[];
 }
+
+export interface ReadyToPlaySectionProps {
+  playNowHref: string;
+  gameTitle: string;
+}

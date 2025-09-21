@@ -37,6 +37,12 @@ const gamesData: Game[] = [
     title: "Ormblok",
     isPopular: true,
   },
+  {
+    href: "/bloodmoney",
+    image: "https://s.clicker-game.com/games/bloodmoney/bloodmoney.jpg",
+    title: "BloodMoney",
+    isPopular: true,
+  },
   // You can continue to add more games...
 ];
 

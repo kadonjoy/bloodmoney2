@@ -1,16 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "@/app/ui/globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title:
@@ -26,11 +15,7 @@ export const metadata: Metadata = {
     "worm puzzle game",
     "ormblok online",
   ],
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    // maximumScale: 1,
-  },
+
   openGraph: {
     title:
       "Ormblok - Play a new arcade puzzle game for Game Boy Color Online Free",
@@ -60,7 +45,11 @@ export const metadata: Metadata = {
     canonical: "https://bloodmoney2.org/ormblok",
   },
 };
-
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  // maximumScale: 1,
+};
 export default function RootLayout({
   children,
 }: Readonly<{

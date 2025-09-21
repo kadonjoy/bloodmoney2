@@ -1,16 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "@/app/ui/globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Normal Maths - Free Online Math Puzzle Games",
@@ -29,11 +18,7 @@ export const metadata: Metadata = {
     "educational game",
     "strategy puzzle",
   ],
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    // maximumScale: 1,
-  },
+
   openGraph: {
     title: "Normal Maths - Free Online Math Puzzle Games",
     description:
@@ -61,7 +46,11 @@ export const metadata: Metadata = {
     canonical: "https://bloodmoney2.org/normal-maths",
   },
 };
-
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  // maximumScale: 1,
+};
 export default function RootLayout({
   children,
 }: Readonly<{

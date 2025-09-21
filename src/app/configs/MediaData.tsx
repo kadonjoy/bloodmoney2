@@ -1,6 +1,6 @@
 import { MediaItem } from "app/utils/typedefine";
 
-export const bloodMoneyMedia: MediaItem[] = [
+export const bloodMoney2Media: MediaItem[] = [
   {
     src: "https://www.youtube.com/embed/_3RnnJkGmIE",
     title: "Official Trailer",
@@ -64,5 +64,21 @@ export const ormblokMedia: MediaItem[] = [
     videoTitle: "Ormblok Strategy Guide",
     description:
       "This is a video demonstration of how to play OrmBlok and get a high score.",
+  },
+];
+
+export const bloodMoneyMedia: MediaItem[] = [
+  {
+    src: "https://www.youtube.com/embed/9V3pYy29xAk?si=VNkFBFr41Ktqmsi6",
+    title: "BloodMoney Official Trailer",
+    videoTitle: "BloodMoney Official Trailer",
+    description:
+      "Bloodmoney is the story of a person who needs to raise $25,000 for a medical procedure and comes across a mysterious stall by the side of the road, run by a friendly guy named Harvey Harvington.",
+  },
+  {
+    src: "https://www.youtube.com/embed/nZ5AP6plb_Y?si=RJBa4ngInJ2eTC2c",
+    title: "BloodMoney Gameplay Preview",
+    videoTitle: "BloodMoney Gameplay Preview",
+    description: "This Is The DARKEST Game I've Ever Played! | Bloodmoney",
   },
 ];

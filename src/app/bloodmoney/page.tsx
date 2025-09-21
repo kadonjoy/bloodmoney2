@@ -2,17 +2,18 @@
 
 import React, { useEffect } from "react";
 import Navbar from "app/components/Navbar";
-import LoveMoneyFeaturesSection from "app/components/LoveMoneyFeaturesSection";
+import BloodMoneyFeaturesSection from "app/components/BloodMoneyFeaturesSection";
 import FooterSection from "app/components/FooterSection";
 import NavAdsSection from "app/components/NavAdsSection";
 import SearchSection from "app/components/SearchSection";
 import GamesGallerySection from "app/components/GamesGallerySection";
 import MediaCommonSection from "app/components/MediaCommonSection";
 import GameHeroSection from "app/components/GameHeroSection";
-import { loveMoneyMedia } from "app/configs/MediaData";
+import { bloodMoneyMedia } from "app/configs/MediaData";
+import FootBarAdsSection from "app/components/FootBarAdsSection";
 import ReadyToPlaySection from "app/components/ReadyToPlaySection";
 
-const loveMoneyHowToPlay = [
+const BloodMoneyHowToPlay = [
   "Start Clicking: Begin your LoveMoney journey by clicking to earn your first dollars. Each click brings you closer to the $25,000 goal needed for the medical procedure.",
   "Purchase Upgrades Wisely: Invest your earnings in LoveMoney's upgrade system. Buy items that increase your money per click, allowing exponential growth in your earning potential.",
   "Navigate Moral Dilemmas: As you progress in LoveMoney, face challenging decisions. Each choice affects your story path and can unlock special earning opportunities or narrative branches.",
@@ -32,22 +33,27 @@ export default function LoveMoneyPage() {
       <NavAdsSection />
       <div id="hero-section-wrapper" className="relative z-10">
         <GameHeroSection
-          gameTitle="LoveMoney"
+          gameTitle="BloodMoney"
           gameSubtitle="Click Your Way Through Moral Choices | Story-Driven Clicker RPG"
-          gameIframeSrc="https://s.clicker-game.com/games/lovemoney/lovemoney.html"
-          gameImageSrc="https://s.clicker-game.com/games/lovemoney/lovemoney.jpg"
-          howToPlayList={loveMoneyHowToPlay}
+          gameIframeSrc="https://s.clicker-game.com/games/bloodmoney/bloodmoney.html"
+          gameImageSrc="https://s.clicker-game.com/games/bloodmoney/bloodmoney.jpg"
+          howToPlayList={BloodMoneyHowToPlay}
         />
       </div>
       <GamesGallerySection />
+      <FootBarAdsSection />
+
       <SearchSection />
       <MediaCommonSection
         titleColor="text-blue-400"
-        items={loveMoneyMedia}
+        items={bloodMoneyMedia}
         scale={150}
       />
-      <LoveMoneyFeaturesSection />
-      <ReadyToPlaySection playNowHref={"/lovemoney"} gameTitle={"LoveMoney"} />
+      <BloodMoneyFeaturesSection />
+      <ReadyToPlaySection
+        playNowHref={"/bloodmoney"}
+        gameTitle={"BloodMoney"}
+      />
       <FooterSection />
     </div>
   );
