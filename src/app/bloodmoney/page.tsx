@@ -13,13 +13,7 @@ import { bloodMoneyMedia } from "app/configs/MediaData";
 import FootBarAdsSection from "app/components/FootBarAdsSection";
 import ReadyToPlaySection from "app/components/ReadyToPlaySection";
 
-const BloodMoneyHowToPlay = [
-  "Start Clicking: Begin your LoveMoney journey by clicking to earn your first dollars. Each click brings you closer to the $25,000 goal needed for the medical procedure.",
-  "Purchase Upgrades Wisely: Invest your earnings in LoveMoney's upgrade system. Buy items that increase your money per click, allowing exponential growth in your earning potential.",
-  "Navigate Moral Dilemmas: As you progress in LoveMoney, face challenging decisions. Each choice affects your story path and can unlock special earning opportunities or narrative branches.",
-  "Explore Storylines: Try different strategies to unlock multiple endings and discover hidden events. Your decisions shape Harvey's fate.",
-  "Discover Your Ending: Reach $25,000 to complete LoveMoney, but remember - how you get there matters. Your choices throughout determine which of the multiple endings you'll experience for Harvey in LoveMoney.",
-];
+const BloodMoneyHowToPlay = [""];
 
 export default function LoveMoneyPage() {
   useEffect(() => {}, []);

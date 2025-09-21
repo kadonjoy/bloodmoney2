@@ -171,12 +171,12 @@ export default function GameHeroSection({
                     >
                       <i className="fas fa-share-alt text-gray-400 group-hover:text-blue-400 transition-colors text-sm"></i>
                     </button>
-                    <button
+                    {/* <button
                       className="group px-2 md:px-3 py-1.5 md:py-2 rounded-lg bg-gray-800/50 hover:bg-gray-700 transition-colors"
                       onClick={() => setShowHowToPlay(true)}
                     >
                       <i className="fas fa-gamepad text-gray-400 group-hover:text-yellow-400 transition-colors text-sm"></i>
-                    </button>
+                    </button> */}
                     <button
                       className="group px-2 md:px-3 py-1.5 md:py-2 rounded-lg bg-gray-800/50 hover:bg-gray-700 transition-colors"
                       onClick={handleFullscreen}
