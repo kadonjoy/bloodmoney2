@@ -4,6 +4,7 @@ import GameNavbar from "app/games/sections/GamesNavbar";
 import SearchSection from "app/components/SearchSection";
 import FooterSection from "app/components/FooterSection";
 import GamesGallerySection from "app/components/GamesGallerySection";
+import GamesDescriptionSecton from "app/components/GamesDescriptionSecton";
 
 export default function GameHome() {
   useEffect(() => {}, []);
@@ -21,6 +22,7 @@ export default function GameHome() {
       </div>
       <GamesGallerySection />
       <SearchSection />
+      <GamesDescriptionSecton />
       <FooterSection />
     </div>
   );
