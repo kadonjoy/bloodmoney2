@@ -14,19 +14,16 @@ export default function FeaturesSection() {
   const [activeTab, setActiveTab] = useState("about");
 
   return (
-    <section
-      id="features"
-      className="section min-h-screen py-16 sm:py-24 bg-gray-900"
-    >
-      <div className="container mx-auto px-4 sm:px-8">
+    <section id="features" className="section py-16 sm:py-24 bg-gray-900">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Tab Navigation */}
-        <div className="flex justify-center mb-8">
+        <div className="flex flex-wrap justify-center mb-8 gap-2">
           {TABS.map((tab) => (
             <button
               key={tab.key}
-              className={`px-6 py-3 mx-2 rounded-full font-bold text-lg transition-colors ${
+              className={`px-4 py-2 sm:px-6 sm:py-3 rounded-full font-bold text-sm sm:text-base transition-colors duration-300 ${
                 activeTab === tab.key
-                  ? "bg-indigo-700 text-white"
+                  ? "bg-indigo-700 text-white shadow-lg"
                   : "bg-gray-800 text-indigo-300 hover:bg-indigo-600 hover:text-white"
               }`}
               onClick={() => setActiveTab(tab.key)}
@@ -37,11 +34,11 @@ export default function FeaturesSection() {
         </div>
 
         {/* Tab Content */}
-        <div className="tab-content">
+        <div className="mt-8">
           {/* About tab*/}
           {activeTab === "about" && (
-            <div className="py-8">
-              <h2 className="text-3xl font-bold text-center mb-12 text-indigo-400">
+            <div className="text-center">
+              <h2 className="text-3xl sm:text-4xl font-extrabold mb-4 text-blue-400">
                 What is BloodMoney 2?
               </h2>
               <div className="flex flex-col md:flex-row items-center gap-12 mb-12">

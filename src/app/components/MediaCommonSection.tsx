@@ -7,15 +7,13 @@ export default function MediaCommonSection({
   items,
   sectionId = "media",
   className = "",
-  scale = 150,
 }: MediaSectionProps) {
   return (
     <section
       id={sectionId}
       className={`section py-16 sm:py-24 bg-gray-900 ${className}`}
-      //   className={`section min-h-screen py-16 sm:py-24 bg-gray-900 ${className}`}
     >
-      <div className="container mx-auto px-4 sm:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2
           className={`text-4xl sm:text-5xl font-extrabold text-center mb-12 sm:mb-16 uppercase ${titleColor}`}
         >
@@ -23,26 +21,27 @@ export default function MediaCommonSection({
         </h2>
 
         {/* Video Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {items.map((item, index) => (
             <div
               key={index}
-              className="bg-gray-800 rounded-xl shadow-xl p-2 flex flex-col items-center max-w-xs mx-auto"
-              style={{ transform: `scale(${scale / 100})` }}
+              className="bg-gray-800 rounded-xl shadow-xl overflow-hidden flex flex-col items-center transition-transform transform hover:scale-105"
             >
-              <iframe
-                src={item.src}
-                title={item.videoTitle}
-                className="w-full h-[150px] rounded-lg shadow-lg border-0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                loading="lazy"
-              />
-              <div className="mt-2 text-center">
-                <h3 className="text-lg font-bold text-white mb-1">
-                  {item.title}
+              {/* iframe with responsive 16:9 aspect ratio */}
+              <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+                <iframe
+                  src={item.src}
+                  title={item.videoTitle}
+                  className="absolute inset-0 w-full h-full rounded-t-xl border-0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
+                />
+              </div>
+              <div className="p-4 text-center">
+                <h3 className="text-lg sm:text-xl font-semibold text-white">
+                  {item.videoTitle}
                 </h3>
-                <p className="text-gray-400 text-xs">{item.description}</p>
               </div>
             </div>
           ))}
