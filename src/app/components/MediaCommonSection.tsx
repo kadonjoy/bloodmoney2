@@ -14,10 +14,8 @@ export default function MediaCommonSection({
       className={`section py-16 sm:py-24 bg-gray-900 ${className}`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <h2
-          className={`text-4xl sm:text-5xl font-extrabold text-center mb-12 sm:mb-16 uppercase ${titleColor}`}
-        >
-          Media
+        <h2 className="text-3xl font-bold text-center mb-12 text-indigo-400">
+          Video Gallery
         </h2>
 
         {/* Video Cards */}

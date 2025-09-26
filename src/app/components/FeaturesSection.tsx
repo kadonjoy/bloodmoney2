@@ -38,7 +38,7 @@ export default function FeaturesSection() {
           {/* About tab*/}
           {activeTab === "about" && (
             <div className="text-center">
-              <h2 className="text-3xl sm:text-4xl font-extrabold mb-4 text-blue-400">
+              <h2 className="text-3xl font-bold text-center mb-12 text-indigo-400">
                 What is BloodMoney 2?
               </h2>
               <div className="flex flex-col md:flex-row items-center gap-12 mb-12">

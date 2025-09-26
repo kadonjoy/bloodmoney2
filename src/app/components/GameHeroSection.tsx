@@ -105,13 +105,11 @@ export default function GameHeroSection({
                 <div className="absolute inset-0 bg-current bg-opacity-50 backdrop-filter backdrop-blur-sm"></div>
               </div>
 
-              <div className="relative z-10 text-center w-full max-w-2xl px-4 py-8 rounded-lg bg-gray-700 bg-opacity-50">
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-blue-400 mb-2 leading-tight">
+              <div className="relative z-10 text-center w-full max-w-2xl px-2 py-4 rounded-lg bg-gray-700 bg-opacity-50">
+                <p className="text-4xl sm:text-5xl lg:text-6xl text-purple-400 leading-tight">
                   {gameTitle}
-                </h1>
-                <p className="text-lg sm:text-xl lg:text-2xl font-light text-gray-300 mb-6 tracking-wide">
-                  {gameSubtitle}
                 </p>
+
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                   <button
                     onClick={() => setShowGame(true)}
@@ -172,16 +170,14 @@ export default function GameHeroSection({
               </div>
             </div>
           </div>
-          {showGame && (
-            <div className="relative z-10 text-center w-full max-w-2xl px-4 py-8 rounded-lg">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-blue-400 mb-2 leading-tight">
-                {gameTitle}
-              </h1>
-              <p className="text-lg sm:text-xl lg:text-2xl font-light text-gray-300 mb-6 tracking-wide">
-                {gameSubtitle}
-              </p>
-            </div>
-          )}
+          <div className="relative z-10 text-center w-full max-w-2xl px-4 py-8 rounded-lg">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-blue-400 mb-2 leading-tight">
+              {gameTitle}
+            </h1>
+            <p className="text-lg sm:text-xl lg:text-2xl font-light text-gray-300 mb-6 tracking-wide">
+              {gameSubtitle}
+            </p>
+          </div>
         </div>
 
         {/* How to Play modal */}

@@ -50,7 +50,7 @@ export default function GamesGallerySection() {
   return (
     <section id="gamesgallery" className="section py-16 sm:py-24 bg-gray-900">
       <div className="container mx-auto px-4 sm:px-8">
-        <h2 className="text-3xl font-bold mb-4 mt-4 text-white relative pb-2 group">
+        <h2 className="text-3xl font-bold text-center mb-12 text-indigo-400">
           <i className="fas fa-fire-alt mr-1 text-red-400 group-hover:text-orange-400 transition-colors duration-300"></i>
           Games Gallery
           <span className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-pink-500 to-blue-500 rounded-full group-hover:w-full transition-all duration-500"></span>
