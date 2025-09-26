@@ -106,9 +106,9 @@ export default function GameHeroSection({
               </div>
 
               <div className="relative z-10 text-center w-full max-w-2xl px-4 py-8 rounded-lg bg-gray-700 bg-opacity-50">
-                <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-blue-400 mb-2 leading-tight">
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-blue-400 mb-2 leading-tight">
                   {gameTitle}
-                </h2>
+                </h1>
                 <p className="text-lg sm:text-xl lg:text-2xl font-light text-gray-300 mb-6 tracking-wide">
                   {gameSubtitle}
                 </p>
