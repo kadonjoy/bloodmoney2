@@ -27,12 +27,6 @@ export default function Navbar() {
           >
             Games
           </Link>
-          {/* <Link
-            href="#features"
-            className="hover:text-blue-400 transition duration-300"
-          >
-            Features
-          </Link> */}
           <Link
             href="#media"
             className="hover:text-blue-400 transition duration-300"
@@ -60,11 +54,22 @@ export default function Navbar() {
 
       {/* Mobile Menu (Full-screen Overlay) */}
       <div
+        // className={`fixed top-0 left-0 h-full w-64 bg-gray-900 bg-opacity-95 z-50 flex flex-col items-center transition-transform transform ${
         className={`fixed inset-0 bg-gray-900 bg-opacity-95 z-40 flex flex-col items-center justify-center transition-transform transform ${
-          isMenuOpen ? "translate-x-0" : "-translate-x-full"
-        } md:hidden`}
+          isMenuOpen ? "translate-x-0 relative" : "-translate-x-full"
+        } md:hidden overflow-y-auto `}
       >
-        <div className="flex flex-col items-center space-y-8 text-2xl text-white">
+        {/* off button */}
+        <button
+          className="absolute top-6 right-6 text-white text-3xl hover:text-blue-400 transition duration-300"
+          onClick={() => setIsMenuOpen(false)}
+          aria-label="Close Menu"
+        >
+          &times;
+        </button>
+
+        {/* items list */}
+        <div className="flex flex-col items-center space-y-2 text-2xl text-white mt-6">
           <Link
             href="/games"
             className="hover:text-blue-400 transition duration-300"
@@ -72,13 +77,6 @@ export default function Navbar() {
           >
             Games
           </Link>
-          {/* <Link
-            href="#features"
-            className="hover:text-blue-400 transition duration-300"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Features
-          </Link> */}
           <Link
             href="#media"
             className="hover:text-blue-400 transition duration-300"
