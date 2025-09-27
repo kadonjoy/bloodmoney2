@@ -105,7 +105,7 @@ export default function GameHeroSection({
                 <div className="absolute inset-0 bg-current bg-opacity-50 backdrop-filter backdrop-blur-sm"></div>
               </div>
 
-              <div className="relative z-10 text-center w-full max-w-2xl px-2 py-4 rounded-lg bg-gray-700 bg-opacity-50">
+              <div className="relative z-10 text-center max-w-2xl w-auto sm:w-full px-2 py-4 rounded-lg bg-gray-700 bg-opacity-50">
                 <p className="text-4xl sm:text-5xl lg:text-6xl text-purple-400 leading-tight">
                   {gameTitle}
                 </p>
