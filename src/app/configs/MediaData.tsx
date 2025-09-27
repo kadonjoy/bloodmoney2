@@ -2,6 +2,13 @@ import { MediaItem } from "app/utils/typedefine";
 
 export const bloodMoney2Media: MediaItem[] = [
   {
+    src: "https://www.youtube.com/embed/vvO4wHnQG3g",
+    title: "Human Expenditure Program Showcase",
+    videoTitle: "BLOODMONEY 2 - Full GAME Walkthrough & ALL Endings",
+    description:
+      "BLOODMONEY 2 - Full GAME Walkthrough & ALL Endings (Human Expenditure Program Showcase)",
+  },
+  {
     src: "https://www.youtube.com/embed/_3RnnJkGmIE",
     title: "Official Trailer",
     videoTitle: "BloodMoney 2 Official Trailer",
@@ -18,6 +25,13 @@ export const bloodMoney2Media: MediaItem[] = [
 ];
 
 export const loveMoneyMedia: MediaItem[] = [
+  {
+    src: "https://www.youtube.com/embed/WmQES-qyp2g",
+    title: "LOVEMONEY! - ALL Items & Endings",
+    videoTitle: "LOVEMONEY! - ALL Items & Endings",
+    description:
+      "LOVEMONEY! - ALL Items & Endings (BLOODMONEY! Fanmade Showcase)",
+  },
   {
     src: "https://www.youtube.com/embed/U58xHabRFO8?si=w__Xyx5-KkK_qV7V",
     title: "LoveMoney Official Gameplay Trailer",
@@ -80,5 +94,27 @@ export const bloodMoneyMedia: MediaItem[] = [
     title: "BloodMoney Gameplay Preview",
     videoTitle: "BloodMoney Gameplay Preview",
     description: "This Is The DARKEST Game I've Ever Played! | Bloodmoney",
+  },
+];
+
+export const poorBunnyMedia: MediaItem[] = [
+  {
+    src: "https://www.youtube.com/embed/aM5L3SVsYN0",
+    title: "Poor Bunny - Gameplay Showcase (iOS, Android)",
+    videoTitle: "Poor Bunny - Gameplay Showcase (iOS, Android)",
+    description: "Poor Bunny - Gameplay Showcase (iOS, Android)",
+  },
+
+  {
+    src: "https://www.youtube.com/embed/TBgHriqQmFY?si=Q3TEa0NJANekPkxF",
+    title: "BloodMoney Gameplay Preview",
+    videoTitle: "BloodMoney Gameplay Preview",
+    description: "This Is The DARKEST Game I've Ever Played! | Bloodmoney",
+  },
+  {
+    src: "https://www.youtube.com/embed/OOsosZHFWzk?si=vNdHlHa3lrcRmdUU",
+    title: "High Score 156 puntos - Ninja Bunny",
+    videoTitle: "High Score 156 puntos - Ninja Bunny",
+    description: "",
   },
 ];

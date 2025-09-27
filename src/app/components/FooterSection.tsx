@@ -54,7 +54,7 @@ export default function FooterSection() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="https://bloodmoney2.org/"
+                  href="https://bloodmoney2.org/games"
                   target="_blank"
                   title="BloodMoney 2 Games"
                   className="text-gray-300 hover:text-yellow-400 transition duration-300 flex items-center"

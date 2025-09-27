@@ -35,6 +35,12 @@ const games: Game[] = [
     image: "https://s.clicker-game.com/games/bloodmoney/bloodmoney.jpg",
     url: "/bloodmoney",
   },
+  {
+    id: 6,
+    name: "Poor Bunny",
+    image: "https://s.clicker-game.com/games/poor-bunny/poor-bunny.jpg",
+    url: "/poorbunny",
+  },
 ];
 
 export default function SearchSection() {

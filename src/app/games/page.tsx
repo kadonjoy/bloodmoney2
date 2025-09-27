@@ -5,6 +5,7 @@ import SearchSection from "app/components/SearchSection";
 import FooterSection from "app/components/FooterSection";
 import GamesGallerySection from "app/components/GamesGallerySection";
 import GamesDescriptionSecton from "app/components/GamesDescriptionSecton";
+import NavAdsSection from "app/components/NavAdsSection";
 
 export default function GameHome() {
   useEffect(() => {}, []);
@@ -15,6 +16,7 @@ export default function GameHome() {
       style={{ scrollSnapType: "y mandatory" }}
     >
       <GamesNavbar />
+      <NavAdsSection />
       <div className="relative pt-16">
         <h1 className="text-4xl font-bold text-center my-8">
           Welcome to Games House

@@ -2,20 +2,20 @@
 
 import React, { useEffect } from "react";
 import Navbar from "app/components/Navbar";
-import BloodMoneyFeaturesSection from "app/components/BloodMoneyFeaturesSection";
+import PoorBunnyFeaturesSection from "app/components/PoorBunnyFeaturesSection";
 import FooterSection from "app/components/FooterSection";
 import NavAdsSection from "app/components/NavAdsSection";
 import SearchSection from "app/components/SearchSection";
 import GamesGallerySection from "app/components/GamesGallerySection";
 import MediaCommonSection from "app/components/MediaCommonSection";
 import GameHeroSection from "app/components/GameHeroSection";
-import { bloodMoneyMedia } from "app/configs/MediaData";
-import FootBarAdsSection from "app/components/FootBarAdsSection";
 import ReadyToPlaySection from "app/components/ReadyToPlaySection";
+import FootBarAdsSection from "app/components/FootBarAdsSection";
+import { poorBunnyMedia } from "app/configs/MediaData";
 
-const BloodMoneyHowToPlay = [""];
+const poorBunnyHowToPlay = [""];
 
-export default function BloodMoneyPage() {
+export default function PoorBunnyPage() {
   useEffect(() => {}, []);
 
   return (
@@ -27,11 +27,11 @@ export default function BloodMoneyPage() {
       <NavAdsSection />
       <div id="hero-section-wrapper" className="relative z-10">
         <GameHeroSection
-          gameTitle="BloodMoney"
-          gameSubtitle="Click Your Way Through Moral Choices | Story-Driven Clicker RPG"
-          gameIframeSrc="https://s.clicker-game.com/games/bloodmoney/bloodmoney.html"
-          gameImageSrc="https://s.clicker-game.com/games/bloodmoney/bloodmoney.jpg"
-          howToPlayList={BloodMoneyHowToPlay}
+          gameTitle="Poor Bunny"
+          gameSubtitle="Platformer | Arcade High-Score Challenge Game"
+          gameIframeSrc="https://s.clicker-game.com/games/poor-bunny/poor-bunny.html"
+          gameImageSrc="https://s.clicker-game.com/games/poor-bunny/poor-bunny.jpg"
+          howToPlayList={poorBunnyHowToPlay}
         />
       </div>
       <GamesGallerySection />
@@ -39,14 +39,11 @@ export default function BloodMoneyPage() {
       <SearchSection />
       <MediaCommonSection
         titleColor="text-blue-400"
-        items={bloodMoneyMedia}
+        items={poorBunnyMedia}
         scale={150}
       />
-      <BloodMoneyFeaturesSection />
-      <ReadyToPlaySection
-        playNowHref={"/bloodmoney"}
-        gameTitle={"BloodMoney"}
-      />
+      <PoorBunnyFeaturesSection />
+      <ReadyToPlaySection playNowHref={"/poorbunny"} gameTitle={"Poor Bunny"} />
       <FooterSection />
     </div>
   );

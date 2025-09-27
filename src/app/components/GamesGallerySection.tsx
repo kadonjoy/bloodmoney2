@@ -43,6 +43,12 @@ const gamesData: Game[] = [
     title: "BloodMoney",
     isPopular: true,
   },
+  {
+    href: "/poorbunny",
+    image: "https://s.clicker-game.com/games/poor-bunny/poor-bunny.jpg",
+    title: "Poor Bunny",
+    isPopular: true,
+  },
   // You can continue to add more games...
 ];
 
